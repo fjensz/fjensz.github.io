@@ -1,5 +1,5 @@
 # Docker image to use for building
-image: node:18
+image: zurb/foundation
 # Build command
 command: yarn build
 # Public directory
