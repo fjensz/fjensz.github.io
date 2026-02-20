@@ -15,9 +15,9 @@
             </ul>
           </div>
         </div>
-        <div class="large-9 medium-9 cell">
+        <div class="large-6 medium-6 cell">
           {{#each blog-posts}}
-          <div class="callout">
+          <div class="callout blog-post" data-year="{{year}}" data-category="{{category}}">
             <h3>{{title}}</h3>
             <p><small>{{date}}</small></p>
             {{#markdown}}
@@ -26,5 +26,74 @@
           </div>
           {{/each}}
         </div>
+        <div class="large-3 medium-3 cell">
+          <div class="callout">
+            <h5>Year</h5>
+            <ul class="vertical menu" id="year-filters">
+              <li><a href="#" data-filter="year" data-value="">All</a></li>
+            </ul>
+          </div>
+          <div class="callout">
+            <h5>Category</h5>
+            <ul class="vertical menu" id="category-filters">
+              <li><a href="#" data-filter="category" data-value="">All</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
+
+    <script>
+      (function() {
+        const posts = document.querySelectorAll('.blog-post');
+        const yearFilters = document.getElementById('year-filters');
+        const categoryFilters = document.getElementById('category-filters');
+        
+        const years = [...new Set([...posts].map(p => p.dataset.year))].sort().reverse();
+        const categories = [...new Set([...posts].map(p => p.dataset.category))].sort();
+        
+        years.forEach(year => {
+          const li = document.createElement('li');
+          li.innerHTML = '<a href="#" data-filter="year" data-value="' + year + '">' + year + '</a>';
+          yearFilters.appendChild(li);
+        });
+        
+        categories.forEach(cat => {
+          const li = document.createElement('li');
+          li.innerHTML = '<a href="#" data-filter="category" data-value="' + cat + '">' + cat + '</a>';
+          categoryFilters.appendChild(li);
+        });
+        
+        let activeYear = '';
+        let activeCategory = '';
+        
+        function filterPosts() {
+          posts.forEach(post => {
+            const matchYear = !activeYear || post.dataset.year === activeYear;
+            const matchCategory = !activeCategory || post.dataset.category === activeCategory;
+            post.style.display = (matchYear && matchCategory) ? 'block' : 'none';
+          });
+        }
+        
+        document.addEventListener('click', function(e) {
+          if (e.target.dataset.filter) {
+            e.preventDefault();
+            const filter = e.target.dataset.filter;
+            const value = e.target.dataset.value;
+            
+            if (filter === 'year') {
+              activeYear = value;
+              yearFilters.querySelectorAll('a').forEach(a => a.style.fontWeight = 'normal');
+              e.target.style.fontWeight = 'bold';
+            } else if (filter === 'category') {
+              activeCategory = value;
+              categoryFilters.querySelectorAll('a').forEach(a => a.style.fontWeight = 'normal');
+              e.target.style.fontWeight = 'bold';
+            }
+            
+            filterPosts();
+          }
+        });
+      })();
+    </script>
+  </div>

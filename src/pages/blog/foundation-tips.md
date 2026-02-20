@@ -2,6 +2,8 @@
 title: "Foundation Tips"
 date: "2026-02-19"
 slug: "foundation-tips"
+year: "2026"
+category: "tips"
 ---
 
 # Foundation Tips
