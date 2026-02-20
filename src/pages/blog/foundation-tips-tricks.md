@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog-post
 title: "Foundation Tips and Tricks"
 date: "2026-01-15"
 slug: "foundation-tips-tricks"

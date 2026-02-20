@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog-post
 title: "Foundation 6.8 Release Notes"
 date: "2025-01-10"
 slug: "foundation-6-8-release"

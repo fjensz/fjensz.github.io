@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog-post
 title: "Responsive Design Best Practices"
 date: "2024-08-22"
 slug: "responsive-design-best-practices"

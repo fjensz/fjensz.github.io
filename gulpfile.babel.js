@@ -89,14 +89,31 @@ function blogPosts() {
       const attrs = content.attributes;
       const body = marked(content.body);
 
-      const layoutPath = 'src/layouts/default.html';
+      const layoutPath = attrs.layout === 'blog-post' ? 'src/layouts/blog-post.html' : 'src/layouts/default.html';
       let layout = fs.readFileSync(layoutPath, 'utf8');
 
       const root = '../';
 
+      let renderedBody = body;
+      if (attrs.layout === 'blog-post') {
+        const sidebar = fs.readFileSync('src/partials/sidebar_nav.html', 'utf8')
+          .replace(/{{root}}/g, root);
+        renderedBody = layout
+          .replace(/{{!--[\s\S]*?--}}/g, '')
+          .replace('{{> sidebar_nav}}', sidebar)
+          .replace('{{> body}}', body)
+          .replace(/{{root}}/g, root);
+      } else {
+        renderedBody = layout
+          .replace(/{{!--[\s\S]*?--}}/g, '')
+          .replace('{{> body}}', body)
+          .replace(/{{root}}/g, root);
+      }
+
+      layout = fs.readFileSync('src/layouts/default.html', 'utf8');
       layout = layout
         .replace(/{{!--[\s\S]*?--}}/g, '')
-        .replace('{{> body}}', body)
+        .replace('{{> body}}', renderedBody)
         .replace(/{{root}}/g, root);
 
       if (attrs.title) {

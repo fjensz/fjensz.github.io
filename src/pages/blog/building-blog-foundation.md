@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog-post
 title: "Building a Blog with Foundation"
 date: "2025-09-01"
 slug: "building-blog-foundation"
