@@ -14,5 +14,51 @@
     "year": "2026",
     "category": "tips",
     "content": "# Foundation Tips\n\nHere are some tips for working with Foundation for Sites:\n\n- Use the XY Grid for flexible layouts\n- Leverage the callout component for highlighted content\n- Take advantage of the built-in responsive design"
+  },
+  {
+    "title": "Foundation Tips and Tricks",
+    "date": "2026-01-15",
+    "slug": "foundation-tips-tricks",
+    "year": "2026",
+    "category": "tips",
+    "content": "# Foundation Tips and Tricks\n\nAdvanced tips and tricks to get the most out of Foundation for Sites."
+  },
+  {
+    "title": "Building a Blog with Foundation",
+    "date": "2025-09-01",
+    "slug": "building-blog-foundation",
+    "year": "2025",
+    "content": "# Building a Blog with Foundation\n\nA step-by-step guide to creating a beautiful blog using Foundation."
+  },
+  {
+    "title": "Customizing Foundation Themes",
+    "date": "2025-05-18",
+    "slug": "customizing-foundation-themes",
+    "year": "2025",
+    "category": "tips",
+    "content": "# Customizing Foundation Themes\n\nLearn how to create custom themes for your Foundation projects."
+  },
+  {
+    "title": "Foundation 6.8 Release Notes",
+    "date": "2025-01-10",
+    "slug": "foundation-6-8-release",
+    "year": "2025",
+    "category": "news",
+    "content": "# Foundation 6.8 Release Notes\n\nCheck out the latest features and improvements in Foundation 6.8."
+  },
+  {
+    "title": "Responsive Design Best Practices",
+    "date": "2024-08-22",
+    "slug": "responsive-design-best-practices",
+    "year": "2024",
+    "content": "# Responsive Design Best Practices\n\nLearn how to build websites that look great on any device."
+  },
+  {
+    "title": "Getting Started with Foundation",
+    "date": "2024-03-15",
+    "slug": "getting-started-foundation",
+    "year": "2024",
+    "category": "tips",
+    "content": "# Getting Started with Foundation\n\nFoundation is a powerful front-end framework that helps you build responsive websites quickly."
   }
 ]
