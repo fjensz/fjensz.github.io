@@ -1,6 +1,6 @@
 # Docker image to use for building
-image: zurb/foundation
+image: node:18
 # Build command
-command: yarn build
+command: npm install -g gulp-cli && yarn build
 # Public directory
 public: dist
