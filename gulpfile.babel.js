@@ -12,6 +12,9 @@ import webpack2      from 'webpack';
 import named         from 'vinyl-named';
 import autoprefixer  from 'autoprefixer';
 import imagemin      from 'gulp-imagemin';
+import fm            from 'front-matter';
+import { marked }    from 'marked';
+import through2      from 'through2';
 
 const sass = require('gulp-sass')(require('sass-embedded'));
 const postcss = require('gulp-postcss');
@@ -39,7 +42,7 @@ console.log(UNCSS_OPTIONS);
 // Build the "dist" folder by running all of the below tasks
 // Sass must be run later so UnCSS can search for used classes in the others assets.
 gulp.task('build',
-  gulp.series(clean, gulp.parallel(pages, javascript, images, copy), sassBuild, styleGuide)
+  gulp.series(clean, gulp.parallel(pages, blogPosts, javascript, images, copy), sassBuild, styleGuide)
 );
 
 // Build the site, run the server, and watch for file changes
@@ -71,6 +74,41 @@ function pages() {
       helpers: 'src/helpers/'
     }))
     .pipe(gulp.dest(PATHS.dist));
+}
+
+// Process blog posts from markdown to HTML
+function blogPosts() {
+  return gulp.src('src/pages/blog/*.md')
+    .pipe(through2.obj(function(file, enc, cb) {
+      if (file.isNull()) {
+        cb(null, file);
+        return;
+      }
+
+      const content = fm(file.contents.toString());
+      const attrs = content.attributes;
+      const body = marked(content.body);
+
+      const layoutPath = 'src/layouts/default.html';
+      let layout = fs.readFileSync(layoutPath, 'utf8');
+
+      const root = '../';
+
+      layout = layout
+        .replace(/{{!--[\s\S]*?--}}/g, '')
+        .replace('{{> body}}', body)
+        .replace(/{{root}}/g, root);
+
+      if (attrs.title) {
+        layout = layout.replace('<title>Foundation for Sites</title>', `<title>${attrs.title}</title>`);
+      }
+
+      file.contents = Buffer.from(layout);
+      file.basename = file.basename.replace(/\.md$/, '.html');
+      this.push(file);
+      cb();
+    }))
+    .pipe(gulp.dest(PATHS.dist + '/blog'));
 }
 
 // Load updated HTML templates and partials into Panini
@@ -178,6 +216,7 @@ function reload(done) {
 function watch() {
   gulp.watch(PATHS.assets, copy);
   gulp.watch('src/pages/**/*.html').on('all', gulp.series(pages, browser.reload));
+  gulp.watch('src/pages/blog/*.md').on('all', gulp.series(blogPosts, browser.reload));
   gulp.watch('src/{layouts,partials}/**/*.html').on('all', gulp.series(resetPages, pages, browser.reload));
   gulp.watch('src/data/**/*.{js,json,yml}').on('all', gulp.series(resetPages, pages, browser.reload));
   gulp.watch('src/helpers/**/*.js').on('all', gulp.series(resetPages, pages, browser.reload));
