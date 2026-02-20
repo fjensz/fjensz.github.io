@@ -18,11 +18,13 @@
         <div class="large-6 medium-6 cell">
           {{#each blog-posts}}
           <div class="callout blog-post" data-year="{{year}}" data-category="{{category}}">
-            <h3>{{title}}</h3>
-            <p><small>{{date}}</small></p>
-            {{#markdown}}
+            <a href="{{slug}}.html" style="color: inherit; text-decoration: none;">
+              <h3>{{title}}</h3>
+              <p><small>{{date}}</small></p>
+              {{#markdown}}
 {{content}}
-            {{/markdown}}
+              {{/markdown}}
+            </a>
           </div>
           {{/each}}
         </div>
