@@ -16,10 +16,15 @@
           </div>
         </div>
         <div class="large-9 medium-9 cell">
+          {{#each blog-posts}}
           <div class="callout">
-            <h3>Welcome to the Blog</h3>
-            <p>Check back soon for updates!</p>
+            <h3>{{title}}</h3>
+            <p><small>{{date}}</small></p>
+            {{#markdown}}
+{{content}}
+            {{/markdown}}
           </div>
+          {{/each}}
         </div>
       </div>
     </div>

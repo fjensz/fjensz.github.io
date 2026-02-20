@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Hello World",
+    "date": "2026-02-20",
+    "slug": "hello-world",
+    "content": "# Hello World\n\nThis is my first blog post. Welcome to my new blog built with Foundation!"
+  },
+  {
+    "title": "Foundation Tips",
+    "date": "2026-02-19",
+    "slug": "foundation-tips",
+    "content": "# Foundation Tips\n\nHere are some tips for working with Foundation for Sites:\n\n- Use the XY Grid for flexible layouts\n- Leverage the callout component for highlighted content\n- Take advantage of the built-in responsive design"
+  }
+]
