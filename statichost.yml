@@ -1,0 +1,6 @@
+# Docker image to use for building
+image: node:18
+# Build command
+command: yarn build
+# Public directory
+public: dist
