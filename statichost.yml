@@ -1,5 +1,5 @@
 # Docker image to use for building
-image: node:18
+image: node:22
 # Build command
 command: npm install -g gulp-cli && yarn install && yarn build
 # Public directory
