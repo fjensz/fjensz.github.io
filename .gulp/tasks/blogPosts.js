@@ -5,7 +5,7 @@ import through2 from 'through2';
 import fs from 'fs';
 
 export function blogPosts(PATHS) {
-  return gulp.src('src/pages/blog/*.md')
+  return gulp.src('src/pages/publications/*.md')
     .pipe(through2.obj(function(file, enc, cb) {
       if (file.isNull()) {
         cb(null, file);
@@ -52,5 +52,5 @@ export function blogPosts(PATHS) {
       this.push(file);
       cb();
     }))
-    .pipe(gulp.dest(PATHS.dist + '/blog'));
+    .pipe(gulp.dest(PATHS.dist + '/publications'));
 }
