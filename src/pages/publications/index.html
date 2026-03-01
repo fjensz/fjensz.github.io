@@ -25,11 +25,23 @@
       </div>
     </div>
 
+    <style>
     {{> publications_styles}}
+    </style>
 
     <script>
       (function() {
-        const posts = document.querySelectorAll('.blog-post');
+        const postsContainer = document.querySelector('.content-area');
+        const posts = Array.from(document.querySelectorAll('.blog-post'));
+
+        posts.sort((a, b) => {
+          const yearA = a.dataset.year || '0';
+          const yearB = b.dataset.year || '0';
+          return yearB.localeCompare(yearA, undefined, { numeric: true });
+        });
+
+        posts.forEach(post => postsContainer.appendChild(post));
+
         const filtersContainer = document.querySelector('.sidebar-right');
         const clearFiltersBtn = document.getElementById('clear-all-filters');
 
