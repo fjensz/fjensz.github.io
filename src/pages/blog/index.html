@@ -17,7 +17,7 @@
         </div>
         <div class="large-6 medium-6 cell">
           {{#each publications}}
-          <div class="callout blog-post" data-year="{{year}}" data-category="{{type}}">
+          <div class="callout blog-post" data-year="{{year}}" data-category="{{category}}" data-type="{{type}}" data-location="{{#if location}}{{location}}{{else}}general{{/if}}">
             <a href="#" style="color: inherit; text-decoration: none;">
               <h3>{{title}}</h3>
               <p><small>{{type}} &bull; {{year}}{{#if location}} &bull; {{location}}{{/if}}</small></p>
@@ -34,9 +34,21 @@
             </ul>
           </div>
           <div class="callout">
+            <h5>Type</h5>
+            <ul class="vertical menu" id="type-filters">
+              <li><a href="#" data-filter="type" data-value="">All</a></li>
+            </ul>
+          </div>
+          <div class="callout">
             <h5>Category</h5>
             <ul class="vertical menu" id="category-filters">
               <li><a href="#" data-filter="category" data-value="">All</a></li>
+            </ul>
+          </div>
+          <div class="callout">
+            <h5>Location</h5>
+            <ul class="vertical menu" id="location-filters">
+              <li><a href="#" data-filter="location" data-value="">All</a></li>
             </ul>
           </div>
         </div>
@@ -47,50 +59,79 @@
       (function() {
         const posts = document.querySelectorAll('.blog-post');
         const yearFilters = document.getElementById('year-filters');
+        const typeFilters = document.getElementById('type-filters');
         const categoryFilters = document.getElementById('category-filters');
-        
+        const locationFilters = document.getElementById('location-filters');
+
         const years = [...new Set([...posts].map(p => p.dataset.year))].sort().reverse();
+        const types = [...new Set([...posts].map(p => p.dataset.type))].sort();
         const categories = [...new Set([...posts].map(p => p.dataset.category))].sort();
-        
+        const locations = [...new Set([...posts].map(p => p.dataset.location))].sort();
+
         years.forEach(year => {
           const li = document.createElement('li');
           li.innerHTML = '<a href="#" data-filter="year" data-value="' + year + '">' + year + '</a>';
           yearFilters.appendChild(li);
         });
-        
+
+        types.forEach(type => {
+          const li = document.createElement('li');
+          li.innerHTML = '<a href="#" data-filter="type" data-value="' + type + '">' + type + '</a>';
+          typeFilters.appendChild(li);
+        });
+
         categories.forEach(cat => {
           const li = document.createElement('li');
           li.innerHTML = '<a href="#" data-filter="category" data-value="' + cat + '">' + cat + '</a>';
           categoryFilters.appendChild(li);
         });
-        
+
+        locations.forEach(loc => {
+          const li = document.createElement('li');
+          const label = loc === 'general' ? 'General' : loc;
+          li.innerHTML = '<a href="#" data-filter="location" data-value="' + loc + '">' + label + '</a>';
+          locationFilters.appendChild(li);
+        });
+
         let activeYear = '';
+        let activeType = '';
         let activeCategory = '';
-        
+        let activeLocation = '';
+
         function filterPosts() {
           posts.forEach(post => {
             const matchYear = !activeYear || post.dataset.year === activeYear;
+            const matchType = !activeType || post.dataset.type === activeType;
             const matchCategory = !activeCategory || post.dataset.category === activeCategory;
-            post.style.display = (matchYear && matchCategory) ? 'block' : 'none';
+            const matchLocation = !activeLocation || post.dataset.location === activeLocation;
+            post.style.display = (matchYear && matchType && matchCategory && matchLocation) ? 'block' : 'none';
           });
         }
-        
+
         document.addEventListener('click', function(e) {
           if (e.target.dataset.filter) {
             e.preventDefault();
             const filter = e.target.dataset.filter;
             const value = e.target.dataset.value;
-            
+
             if (filter === 'year') {
               activeYear = value;
               yearFilters.querySelectorAll('a').forEach(a => a.style.fontWeight = 'normal');
+              e.target.style.fontWeight = 'bold';
+            } else if (filter === 'type') {
+              activeType = value;
+              typeFilters.querySelectorAll('a').forEach(a => a.style.fontWeight = 'normal');
               e.target.style.fontWeight = 'bold';
             } else if (filter === 'category') {
               activeCategory = value;
               categoryFilters.querySelectorAll('a').forEach(a => a.style.fontWeight = 'normal');
               e.target.style.fontWeight = 'bold';
+            } else if (filter === 'location') {
+              activeLocation = value;
+              locationFilters.querySelectorAll('a').forEach(a => a.style.fontWeight = 'normal');
+              e.target.style.fontWeight = 'bold';
             }
-            
+
             filterPosts();
           }
         });
