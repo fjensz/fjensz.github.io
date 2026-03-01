@@ -6,9 +6,9 @@
         <div class="cell large-6 medium-6 content-area">
           <h1>Publications <span id="publication-count">({{publications.length}})</span></h1>
           {{#each publications}}
-          <div class="callout blog-post" data-year="{{year}}" data-categories="{{#each category}}{{this}} {{/each}}" data-type="{{type}}" data-location="{{#if location}}{{location}}{{else}}general{{/if}}">
+          <div class="callout blog-post" data-year="{{#if year}}{{year}}{{else}}coming soon{{/if}}" data-categories="{{#each category}}{{this}} {{/each}}" data-type="{{type}}" data-location="{{#if location}}{{location}}{{else}}general{{/if}}">
             {{> publication_item}}
-            <p><small>{{type}} &bull; {{year}}{{#if location}} &bull; {{location}}{{/if}}</small></p>
+            <p><small>{{type}} &bull; {{#if year}}{{year}}{{else}}coming soon{{/if}}{{#if location}} &bull; {{location}}{{/if}}</small></p>
             <p>{{summary}}</p>
           </div>
           {{/each}}
@@ -35,9 +35,11 @@
         const posts = Array.from(document.querySelectorAll('.blog-post'));
 
         posts.sort((a, b) => {
-          const yearA = a.dataset.year || '0';
-          const yearB = b.dataset.year || '0';
-          return yearB.localeCompare(yearA, undefined, { numeric: true });
+          const yearA = a.dataset.year;
+          const yearB = b.dataset.year;
+          if (yearA === 'coming soon') return -1;
+          if (yearB === 'coming soon') return 1;
+          return parseInt(yearB) - parseInt(yearA);
         });
 
         posts.forEach(post => postsContainer.appendChild(post));
@@ -45,7 +47,11 @@
         const filtersContainer = document.querySelector('.sidebar-right');
         const clearFiltersBtn = document.getElementById('clear-all-filters');
 
-        const years = [...new Set([...posts].map(p => p.dataset.year))].sort().reverse();
+        const years = [...new Set([...posts].map(p => p.dataset.year))].sort((a, b) => {
+          if (a === 'coming soon') return -1;
+          if (b === 'coming soon') return 1;
+          return parseInt(b) - parseInt(a);
+        });
         const types = [...new Set([...posts].map(p => p.dataset.type))].sort();
         const categories = [...new Set([...posts].flatMap(p => p.dataset.categories.trim().split(' ').filter(c => c)))].sort();
         const locations = [...new Set([...posts].map(p => p.dataset.location))].sort();
