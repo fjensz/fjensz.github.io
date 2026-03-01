@@ -89,14 +89,17 @@
             const filterName = section.dataset.filterName;
             const summaryContainer = section.querySelector('.filter-summary');
             const selectedValuesSpan = summaryContainer.querySelector('.selected-values');
+            const clearBtn = section.querySelector('.filter-clear');
             const selection = selectedFilters[filterName];
 
             if (selection.size > 0) {
               hasAnySelection = true;
               summaryContainer.style.display = 'block';
               selectedValuesSpan.textContent = Array.from(selection).join(', ');
+              clearBtn.style.display = 'inline';
             } else {
               summaryContainer.style.display = 'none';
+              clearBtn.style.display = 'none';
             }
           });
 
@@ -125,6 +128,19 @@
               selectedFilters[filterName].delete(value);
             }
 
+            updateSelectedDisplay();
+            filterPosts();
+          });
+        });
+
+        document.querySelectorAll('.filter-clear').forEach(clearBtn => {
+          clearBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const section = e.target.closest('.filter-section');
+            const filterName = section.dataset.filterName;
+
+            section.querySelectorAll('.filter-checkbox').forEach(cb => cb.checked = false);
+            selectedFilters[filterName].clear();
             updateSelectedDisplay();
             filterPosts();
           });
