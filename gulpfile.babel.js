@@ -39,7 +39,7 @@ console.log(UNCSS_OPTIONS);
 // Build the "dist" folder by running all of the below tasks
 // Sass must be run later so UnCSS can search for used classes in the others assets.
 gulp.task('build',
-  gulp.series(clean, generateBlogJson, gulp.parallel(pages, () => blogPosts(PATHS), javascript, images, copy), sassBuild, styleGuide)
+  gulp.series(clean, gulp.parallel(pages, () => blogPosts(PATHS), javascript, images, copy), sassBuild, styleGuide)
 );
 
 // Build the site, run the server, and watch for file changes
@@ -74,7 +74,6 @@ function pages() {
 }
 
 import { blogPosts } from './.gulp/tasks/blogPosts';
-import { generateBlogJson } from './.gulp/tasks/generateBlogJson';
 
 // Load updated HTML templates and partials into Panini
 function resetPages(done) {
@@ -181,7 +180,7 @@ function reload(done) {
 function watch() {
   gulp.watch(PATHS.assets, copy);
   gulp.watch('src/pages/**/*.html').on('all', gulp.series(pages, browser.reload));
-  gulp.watch('src/pages/publications/*.md').on('all', gulp.series(generateBlogJson, () => blogPosts(PATHS), browser.reload));
+  gulp.watch('src/pages/publications/*.md').on('all', gulp.series(() => blogPosts(PATHS), browser.reload));
   gulp.watch('src/{layouts,partials}/**/*.html').on('all', gulp.series(resetPages, pages, browser.reload));
   gulp.watch('src/data/**/*.{js,json,yml}').on('all', gulp.series(resetPages, pages, browser.reload));
   gulp.watch('src/helpers/**/*.js').on('all', gulp.series(resetPages, pages, browser.reload));
