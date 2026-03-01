@@ -1,66 +1,31 @@
-    <div class="page-layout">
-      <aside class="sidebar-left">
-        {{> publications_nav}}
-      </aside>
-      <main class="content-area">
-        <h1>Publications <span id="publication-count">({{publications.length}})</span></h1>
-        {{#each publications}}
-        <div class="callout blog-post" data-year="{{year}}" data-categories="{{#each category}}{{this}} {{/each}}" data-type="{{type}}" data-location="{{#if location}}{{location}}{{else}}general{{/if}}">
-          <a href="#" style="color: inherit; text-decoration: none;">
-            <h3>{{title}}</h3>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="cell large-3 medium-3 sidebar-left">
+          {{> publications_nav}}
+        </div>
+        <div class="cell large-6 medium-6 content-area">
+          <h1>Publications <span id="publication-count">({{publications.length}})</span></h1>
+          {{#each publications}}
+          <div class="callout blog-post" data-year="{{year}}" data-categories="{{#each category}}{{this}} {{/each}}" data-type="{{type}}" data-location="{{#if location}}{{location}}{{else}}general{{/if}}">
+            {{> publication_item}}
             <p><small>{{type}} &bull; {{year}}{{#if location}} &bull; {{location}}{{/if}}</small></p>
             <p>{{summary}}</p>
-          </a>
+          </div>
+          {{/each}}
         </div>
-        {{/each}}
-      </main>
-      <aside class="sidebar-right">
-        <div class="callout clear-filters" style="display: none;">
-          <a href="#" id="clear-all-filters">Clear selections</a>
+        <div class="cell large-3 medium-3 sidebar-right">
+          <div class="callout clear-filters" style="display: none;">
+            <a href="#" id="clear-all-filters">Clear selections</a>
+          </div>
+          {{> filter_selector filterName="year" displayName="Year"}}
+          {{> filter_selector filterName="type" displayName="Type"}}
+          {{> filter_selector filterName="category" displayName="Category"}}
+          {{> filter_selector filterName="location" displayName="Location"}}
         </div>
-        {{> filter_selector filterName="year" displayName="Year"}}
-        {{> filter_selector filterName="type" displayName="Type"}}
-        {{> filter_selector filterName="category" displayName="Category"}}
-        {{> filter_selector filterName="location" displayName="Location"}}
-      </aside>
+      </div>
     </div>
 
-    <style>
-      .page-layout {
-        display: flex;
-        min-height: 100vh;
-      }
-      .sidebar-left {
-        width: 200px;
-        flex-shrink: 0;
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        overflow-y: auto;
-        padding: 1rem;
-        box-sizing: border-box;
-      }
-      .content-area {
-        flex: 1;
-        margin-left: 200px;
-        margin-right: 250px;
-        padding: 1rem 2rem;
-        overflow-y: auto;
-        max-height: 100vh;
-      }
-      .sidebar-right {
-        width: 250px;
-        flex-shrink: 0;
-        position: fixed;
-        top: 0;
-        right: 0;
-        height: 100vh;
-        overflow-y: auto;
-        padding: 1rem;
-        box-sizing: border-box;
-      }
-    </style>
+    {{> publications_styles}}
 
     <script>
       (function() {
