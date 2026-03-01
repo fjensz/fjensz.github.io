@@ -1,47 +1,71 @@
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <h1>Publications</h1>
+    <div class="page-layout">
+      <aside class="sidebar-left">
+        {{> publications_nav}}
+      </aside>
+      <main class="content-area">
+        <h1>Publications</h1>
+        {{#each publications}}
+        <div class="callout blog-post" data-year="{{year}}" data-categories="{{#each category}}{{this}} {{/each}}" data-type="{{type}}" data-location="{{#if location}}{{location}}{{else}}general{{/if}}">
+          <a href="#" style="color: inherit; text-decoration: none;">
+            <h3>{{title}}</h3>
+            <p><small>{{type}} &bull; {{year}}{{#if location}} &bull; {{location}}{{/if}}</small></p>
+            <p>{{summary}}</p>
+          </a>
         </div>
-      </div>
-
-      <div class="grid-x grid-padding-x">
-        <div class="large-3 medium-3 cell">
-          <div class="callout">
-            <h5>Navigation</h5>
-            <ul class="vertical menu">
-              <li><a href="{{root}}index.html">Home</a></li>
-              <li><a href="{{root}}blog/">Publications</a></li>
-            </ul>
-          </div>
+        {{/each}}
+      </main>
+      <aside class="sidebar-right">
+        <div class="callout clear-filters" style="display: none;">
+          <a href="#" id="clear-all-filters">Clear selections</a>
         </div>
-        <div class="large-6 medium-6 cell">
-          {{#each publications}}
-          <div class="callout blog-post" data-year="{{year}}" data-categories="{{#each category}}{{this}} {{/each}}" data-type="{{type}}" data-location="{{#if location}}{{location}}{{else}}general{{/if}}">
-            <a href="#" style="color: inherit; text-decoration: none;">
-              <h3>{{title}}</h3>
-              <p><small>{{type}} &bull; {{year}}{{#if location}} &bull; {{location}}{{/if}}</small></p>
-              <p>{{summary}}</p>
-            </a>
-          </div>
-          {{/each}}
-        </div>
-        <div class="large-3 medium-3 cell" id="filters-container">
-          <div class="callout clear-filters" style="display: none;">
-            <a href="#" id="clear-all-filters">Clear selections</a>
-          </div>
-          {{> filter_selector filterName="year" displayName="Year"}}
-          {{> filter_selector filterName="type" displayName="Type"}}
-          {{> filter_selector filterName="category" displayName="Category"}}
-          {{> filter_selector filterName="location" displayName="Location"}}
-        </div>
-      </div>
+        {{> filter_selector filterName="year" displayName="Year"}}
+        {{> filter_selector filterName="type" displayName="Type"}}
+        {{> filter_selector filterName="category" displayName="Category"}}
+        {{> filter_selector filterName="location" displayName="Location"}}
+      </aside>
     </div>
+
+    <style>
+      .page-layout {
+        display: flex;
+        min-height: 100vh;
+      }
+      .sidebar-left {
+        width: 200px;
+        flex-shrink: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        overflow-y: auto;
+        padding: 1rem;
+        box-sizing: border-box;
+      }
+      .content-area {
+        flex: 1;
+        margin-left: 200px;
+        margin-right: 250px;
+        padding: 1rem 2rem;
+        overflow-y: auto;
+        max-height: 100vh;
+      }
+      .sidebar-right {
+        width: 250px;
+        flex-shrink: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        overflow-y: auto;
+        padding: 1rem;
+        box-sizing: border-box;
+      }
+    </style>
 
     <script>
       (function() {
         const posts = document.querySelectorAll('.blog-post');
-        const filtersContainer = document.getElementById('filters-container');
+        const filtersContainer = document.querySelector('.sidebar-right');
         const clearFiltersBtn = document.getElementById('clear-all-filters');
 
         const years = [...new Set([...posts].map(p => p.dataset.year))].sort().reverse();
