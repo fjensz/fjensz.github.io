@@ -26,31 +26,14 @@
           </div>
           {{/each}}
         </div>
-        <div class="large-3 medium-3 cell">
-          <div class="callout">
-            <h5>Year</h5>
-            <ul class="vertical menu" id="year-filters">
-              <li><a href="#" data-filter="year" data-value="">All</a></li>
-            </ul>
+        <div class="large-3 medium-3 cell" id="filters-container">
+          <div class="callout clear-filters" style="display: none;">
+            <a href="#" id="clear-all-filters">Clear selections</a>
           </div>
-          <div class="callout">
-            <h5>Type</h5>
-            <ul class="vertical menu" id="type-filters">
-              <li><a href="#" data-filter="type" data-value="">All</a></li>
-            </ul>
-          </div>
-          <div class="callout">
-            <h5>Category</h5>
-            <ul class="vertical menu" id="category-filters">
-              <li><a href="#" data-filter="category" data-value="">All</a></li>
-            </ul>
-          </div>
-          <div class="callout">
-            <h5>Location</h5>
-            <ul class="vertical menu" id="location-filters">
-              <li><a href="#" data-filter="location" data-value="">All</a></li>
-            </ul>
-          </div>
+          {{> filter_selector filterName="year" displayName="Year"}}
+          {{> filter_selector filterName="type" displayName="Type"}}
+          {{> filter_selector filterName="category" displayName="Category"}}
+          {{> filter_selector filterName="location" displayName="Location"}}
         </div>
       </div>
     </div>
@@ -58,82 +41,101 @@
     <script>
       (function() {
         const posts = document.querySelectorAll('.blog-post');
-        const yearFilters = document.getElementById('year-filters');
-        const typeFilters = document.getElementById('type-filters');
-        const categoryFilters = document.getElementById('category-filters');
-        const locationFilters = document.getElementById('location-filters');
+        const filtersContainer = document.getElementById('filters-container');
+        const clearFiltersBtn = document.getElementById('clear-all-filters');
 
         const years = [...new Set([...posts].map(p => p.dataset.year))].sort().reverse();
         const types = [...new Set([...posts].map(p => p.dataset.type))].sort();
         const categories = [...new Set([...posts].map(p => p.dataset.category))].sort();
         const locations = [...new Set([...posts].map(p => p.dataset.location))].sort();
 
-        years.forEach(year => {
-          const li = document.createElement('li');
-          li.innerHTML = '<a href="#" data-filter="year" data-value="' + year + '">' + year + '</a>';
-          yearFilters.appendChild(li);
+        const filterConfigs = {
+          year: { values: years.map(y => ({ value: y, label: y })) },
+          type: { values: types.map(t => ({ value: t, label: t })) },
+          category: { values: categories.map(c => ({ value: c, label: c })) },
+          location: { values: locations.map(l => ({ value: l, label: l === 'general' ? 'General' : l })) }
+        };
+
+        document.querySelectorAll('.filter-section').forEach(section => {
+          const filterName = section.dataset.filterName;
+          const config = filterConfigs[filterName];
+          const optionsContainer = section.querySelector('.filter-options');
+          const summaryContainer = section.querySelector('.filter-summary');
+          const header = section.querySelector('.filter-header');
+          const selectedValuesSpan = summaryContainer.querySelector('.selected-values');
+
+          config.values.forEach(item => {
+            const li = document.createElement('li');
+            li.innerHTML = `<label><input type="checkbox" class="filter-checkbox" value="${item.value}"> ${item.label}</label>`;
+            optionsContainer.appendChild(li);
+          });
+
+          header.addEventListener('click', () => {
+            const isHidden = optionsContainer.style.display === 'none';
+            optionsContainer.style.display = isHidden ? 'block' : 'none';
+          });
         });
 
-        types.forEach(type => {
-          const li = document.createElement('li');
-          li.innerHTML = '<a href="#" data-filter="type" data-value="' + type + '">' + type + '</a>';
-          typeFilters.appendChild(li);
-        });
+        const selectedFilters = {
+          year: new Set(),
+          type: new Set(),
+          category: new Set(),
+          location: new Set()
+        };
 
-        categories.forEach(cat => {
-          const li = document.createElement('li');
-          li.innerHTML = '<a href="#" data-filter="category" data-value="' + cat + '">' + cat + '</a>';
-          categoryFilters.appendChild(li);
-        });
+        function updateSelectedDisplay() {
+          let hasAnySelection = false;
+          document.querySelectorAll('.filter-section').forEach(section => {
+            const filterName = section.dataset.filterName;
+            const summaryContainer = section.querySelector('.filter-summary');
+            const selectedValuesSpan = summaryContainer.querySelector('.selected-values');
+            const selection = selectedFilters[filterName];
 
-        locations.forEach(loc => {
-          const li = document.createElement('li');
-          const label = loc === 'general' ? 'General' : loc;
-          li.innerHTML = '<a href="#" data-filter="location" data-value="' + loc + '">' + label + '</a>';
-          locationFilters.appendChild(li);
-        });
+            if (selection.size > 0) {
+              hasAnySelection = true;
+              summaryContainer.style.display = 'block';
+              selectedValuesSpan.textContent = Array.from(selection).join(', ');
+            } else {
+              summaryContainer.style.display = 'none';
+            }
+          });
 
-        let activeYear = '';
-        let activeType = '';
-        let activeCategory = '';
-        let activeLocation = '';
+          document.querySelector('.clear-filters').style.display = hasAnySelection ? 'block' : 'none';
+        }
 
         function filterPosts() {
           posts.forEach(post => {
-            const matchYear = !activeYear || post.dataset.year === activeYear;
-            const matchType = !activeType || post.dataset.type === activeType;
-            const matchCategory = !activeCategory || post.dataset.category === activeCategory;
-            const matchLocation = !activeLocation || post.dataset.location === activeLocation;
+            const matchYear = selectedFilters.year.size === 0 || selectedFilters.year.has(post.dataset.year);
+            const matchType = selectedFilters.type.size === 0 || selectedFilters.type.has(post.dataset.type);
+            const matchCategory = selectedFilters.category.size === 0 || selectedFilters.category.has(post.dataset.category);
+            const matchLocation = selectedFilters.location.size === 0 || selectedFilters.location.has(post.dataset.location);
             post.style.display = (matchYear && matchType && matchCategory && matchLocation) ? 'block' : 'none';
           });
         }
 
-        document.addEventListener('click', function(e) {
-          if (e.target.dataset.filter) {
-            e.preventDefault();
-            const filter = e.target.dataset.filter;
-            const value = e.target.dataset.value;
+        document.querySelectorAll('.filter-checkbox').forEach(checkbox => {
+          checkbox.addEventListener('change', (e) => {
+            const section = e.target.closest('.filter-section');
+            const filterName = section.dataset.filterName;
+            const value = e.target.value;
 
-            if (filter === 'year') {
-              activeYear = value;
-              yearFilters.querySelectorAll('a').forEach(a => a.style.fontWeight = 'normal');
-              e.target.style.fontWeight = 'bold';
-            } else if (filter === 'type') {
-              activeType = value;
-              typeFilters.querySelectorAll('a').forEach(a => a.style.fontWeight = 'normal');
-              e.target.style.fontWeight = 'bold';
-            } else if (filter === 'category') {
-              activeCategory = value;
-              categoryFilters.querySelectorAll('a').forEach(a => a.style.fontWeight = 'normal');
-              e.target.style.fontWeight = 'bold';
-            } else if (filter === 'location') {
-              activeLocation = value;
-              locationFilters.querySelectorAll('a').forEach(a => a.style.fontWeight = 'normal');
-              e.target.style.fontWeight = 'bold';
+            if (e.target.checked) {
+              selectedFilters[filterName].add(value);
+            } else {
+              selectedFilters[filterName].delete(value);
             }
 
+            updateSelectedDisplay();
             filterPosts();
-          }
+          });
+        });
+
+        clearFiltersBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          document.querySelectorAll('.filter-checkbox').forEach(cb => cb.checked = false);
+          Object.values(selectedFilters).forEach(s => s.clear());
+          updateSelectedDisplay();
+          filterPosts();
         });
       })();
     </script>

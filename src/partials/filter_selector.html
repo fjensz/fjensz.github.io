@@ -1,0 +1,11 @@
+<div class="callout filter-section" data-filter-name="{{filterName}}">
+  <h5 class="filter-header">{{displayName}}</h5>
+  <div class="filter-summary" style="display: none;">
+    <span class="selected-values"></span>
+  </div>
+  <ul class="vertical menu filter-options" style="display: none;">
+    {{#each values}}
+    <li><label><input type="checkbox" class="filter-checkbox" value="{{value}}"> {{label}}</label></li>
+    {{/each}}
+  </ul>
+</div>
