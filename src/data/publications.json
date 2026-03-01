@@ -4,7 +4,10 @@
     "date": null,
     "year": null,
     "type": "Monograph",
-    "category": "Religion, Post-colonialism",
+    "category": [
+      "Religion",
+      "Colonialism"
+    ],
     "location": null,
     "summary": "A manuscript in preparation examining religious disentanglements in post-colonial Germany, to be submitted to Oxford University Press."
   },
@@ -13,7 +16,11 @@
     "date": "2022",
     "year": 2022,
     "type": "Monograph",
-    "category": "Mission History, Education, Colonialism",
+    "category": [
+      "Mission History",
+      "Education",
+      "Colonialism"
+    ],
     "location": null,
     "summary": "Many missionary societies established mission schools in the nineteenth century in the British Empire as a means to convert non-Europeans to Christianity. Although the details differed in various colonial contexts, the driving ideology behind mission schools was that Christian morality was highest form of civilisation needed for non-Europeans to be useful members of colonies under British rule. This comprehensive survey of multi-colonial sites over the long time span clearly describes the missionary paradox that to draw in pupils they needed to provide secular education, but that secular education was seen to lead both to a moral crisis and to anti-British sentiments.",
     "doi": "9781526152961"
@@ -23,7 +30,11 @@
     "date": "2010",
     "year": 2010,
     "type": "Monograph",
-    "category": "Moravian Church, Mission History, Colonialism",
+    "category": [
+      "Religion",
+      "Mission History",
+      "Colonialism"
+    ],
     "location": "Australia",
     "summary": "Focusing on the six decades that German Moravian missionaries worked in the British colony of Victoria, Australia, this book enriches understanding of colonial politics and the role of the non-British other in manipulating practice and policy in foreign realms. Central to the transnational nature of the book are questions of identity and of how individuals, and the organisations they worked for, can be seen as both colluders and opposers within nation-state borders and politics. It analyses the ways in which the Moravian missionaries navigated competing agendas within the colonial setting.",
     "doi": "10.1163/9789004179219"
@@ -33,7 +44,9 @@
     "date": "2026",
     "year": 2026,
     "type": "Edited Book",
-    "category": "Ecumenism, Religious History",
+    "category": [
+      "Religion"
+    ],
     "location": null,
     "summary": "An edited volume examining the ecumenical movement during the turbulent period of war and post-war times from 1890-1930."
   },
@@ -42,34 +55,49 @@
     "date": "2026",
     "year": 2026,
     "type": "Edited Journal Special Issue",
-    "category": "Colonialism, Translation Studies, Imperial History",
+    "category": [
+      "Colonialism",
+      "Translation Studies",
+      "Imperialism"
+    ],
     "location": null,
     "summary": "A special issue of Itinerario exploring the relationship between translation and colonialism in imperial contexts."
   },
   {
-    "title": "Koloniale Spuren in M\u00fcnster und im M\u00fcnsterland. Erkundungen in der westf\u00e4lischen Provinz",
+    "title": "Koloniale Spuren in Münster und im Münsterland. Erkundungen in der westfälischen Provinz",
     "date": "2024",
     "year": 2024,
     "type": "Edited Book",
-    "category": "Colonial History, Regional History, Public History",
+    "category": [
+      "Colonial History",
+      "History"
+    ],
     "location": null,
-    "summary": "An exploration of colonial traces in M\u00fcnster and the M\u00fcnsterland region, examining colonial legacies in Westphalia."
+    "summary": "An exploration of colonial traces in Münster and the Münsterland region, examining colonial legacies in Westphalia."
   },
   {
     "title": "Sources and Methods in the History of Boarding Schools",
     "date": "2024",
     "year": 2024,
     "type": "Edited Journal Special Issue",
-    "category": "Education History, Childhood Studies, Methodology",
+    "category": [
+      "Education",
+      "Childhood",
+      "Methodology"
+    ],
     "location": null,
     "summary": "A specially edited section on sources and methods for researching boarding school history."
   },
   {
-    "title": "Verm\u00e4chtnisse von David Cranz' 'Historie von Gr\u00f6nland' (1765)",
+    "title": "Vermächtnisse von David Cranz' 'Historie von Grönland' (1765)",
     "date": "2024",
     "year": 2024,
     "type": "Edited Book",
-    "category": "Moravian Church, Early Modern History, Translation Studies",
+    "category": [
+      "Religion",
+      "History",
+      "Translation Studies"
+    ],
     "location": "Greenland",
     "summary": "A German translation and examination of David Cranz's 1765 History of Greenland, part of an innovative AI translation project."
   },
@@ -78,7 +106,11 @@
     "date": "2023",
     "year": 2023,
     "type": "Edited Journal Special Issue",
-    "category": "Settler Colonial Studies, Childhood, Institutional History",
+    "category": [
+      "Colonialism",
+      "Childhood",
+      "Institutional History"
+    ],
     "location": null,
     "summary": "A trans-imperial analysis of children and institutions in settler colonial contexts. This article examines how children experienced institutional care in various settler colonial societies across the British Empire.",
     "doi": null
@@ -88,7 +120,11 @@
     "date": "2023",
     "year": 2023,
     "type": "Edited Book",
-    "category": "Mission History, Diaries, Gender Studies",
+    "category": [
+      "Mission History",
+      "Diaries",
+      "Gender Studies"
+    ],
     "location": "Australia",
     "summary": "The diary of Adolf and Polly Hartmann from 1863-1873, providing insights into missionary life in Australia."
   },
@@ -97,16 +133,23 @@
     "date": "2022",
     "year": 2022,
     "type": "Edited Book",
-    "category": "Education History, Childhood, Colonialism",
+    "category": [
+      "Education",
+      "Childhood",
+      "Colonialism"
+    ],
     "location": null,
     "summary": "A comprehensive examination of boarding schools globally during the 19th and 20th centuries."
   },
   {
-    "title": "The Legacies of David Cranz's 'Historie von Gr\u00f6nland' (1765)",
+    "title": "The Legacies of David Cranz's 'Historie von Grönland' (1765)",
     "date": "2021",
     "year": 2021,
     "type": "Edited Book",
-    "category": "Moravian Church, Early Modern History, Trans-Atlantic History",
+    "category": [
+      "Religion",
+      "History"
+    ],
     "location": "Greenland",
     "summary": "An examination of the lasting legacies of David Cranz's influential History of Greenland from 1765."
   },
@@ -115,7 +158,12 @@
     "date": "2016",
     "year": 2016,
     "type": "Edited Journal Special Issue",
-    "category": "Mission History, Education, Colonialism, Indigenous Peoples",
+    "category": [
+      "Mission History",
+      "Education",
+      "Colonialism",
+      "Indigenous Studies"
+    ],
     "location": null,
     "summary": "A dossier examining non-European teachers in mission schools across various colonial contexts."
   },
@@ -124,7 +172,10 @@
     "date": "2013",
     "year": 2013,
     "type": "Edited Book",
-    "category": "Mission History, Media Studies, Publishing History",
+    "category": [
+      "Mission History",
+      "Media Studies"
+    ],
     "location": null,
     "summary": "An examination of the politics surrounding missionary periodicals in the long nineteenth century."
   },
@@ -133,7 +184,10 @@
     "date": "2013",
     "year": 2013,
     "type": "Edited Journal Special Issue",
-    "category": "Mission History, Media Studies, Publishing History",
+    "category": [
+      "Mission History",
+      "Media Studies"
+    ],
     "location": null,
     "summary": "At the 1860 conference on Protestant missions held in Liverpool, a session was dedicated to the use of the reported 200,000 monthly missionary periodicals produced by various societies for encouraging the home support of missionary work. The 125 delegates from more than twenty-five Protestant missionary societies both in Britain and abroad had divergent opinions on the prospective contents and audiences for missionary periodicals.",
     "doi": "10.1017/S0009640713000036"
@@ -143,7 +197,11 @@
     "date": "2025",
     "year": 2025,
     "type": "Journal Article",
-    "category": "Bible Translation, Colonialism, Religious History",
+    "category": [
+      "Bible Translation",
+      "Colonialism",
+      "Religion"
+    ],
     "location": "West Africa",
     "summary": "Recent studies in world Christianity have established that the missionary mother-tongue Bibles contributed essentially to the rise of indigenous forms of Christianity and its meteoric growth in Africa. However, these studies hardly give attention to the background processes that advanced missionary Bible translations. Using a case study approach and through a close reading of archival data on two missionary Bible translations in West Africa: the Ga Bible (1854-1866) of the Basel Mission and the Ewe Bible (1858-1913) of the North German Mission, this article reconstructs the multi-step background processes that produced these pioneering translations in the nineteenth to early twentieth centuries.",
     "doi": null
@@ -153,7 +211,11 @@
     "date": "2025",
     "year": 2025,
     "type": "Journal Article",
-    "category": "Translation Studies, Colonialism, Imperial History",
+    "category": [
+      "Translation Studies",
+      "Colonialism",
+      "Imperialism"
+    ],
     "location": null,
     "summary": "An exploration of the relationship between translation practices and colonialism."
   },
@@ -162,25 +224,36 @@
     "date": "2025",
     "year": 2025,
     "type": "Journal Article",
-    "category": "Bible Translation, Nationalism, Imperialism, Religious History",
+    "category": [
+      "Bible Translation",
+      "Nationalism",
+      "Imperialism",
+      "Religion"
+    ],
     "location": null,
     "summary": "An examination of how Bible translations contributed to national identity formation during the age of empires."
   },
   {
-    "title": "Wer schreibt postkoloniale Stadtgeschichte? Eine Zwischenbilanz aus M\u00fcnster",
+    "title": "Wer schreibt postkoloniale Stadtgeschichte? Eine Zwischenbilanz aus Münster",
     "date": "2025",
     "year": 2025,
     "type": "Journal Article",
-    "category": "Urban History, Post-colonialism, Public History",
+    "category": [
+      "History",
+      "Colonialism"
+    ],
     "location": null,
-    "summary": "An interim assessment of writing post-colonial urban history from the perspective of M\u00fcnster."
+    "summary": "An interim assessment of writing post-colonial urban history from the perspective of Münster."
   },
   {
-    "title": "Mapping the Object: Eine Case Study zu au\u00dfereurop\u00e4ischen Objekten in kleinen Museen",
+    "title": "Mapping the Object: Eine Case Study zu außereuropäischen Objekten in kleinen Museen",
     "date": "2025",
     "year": 2025,
     "type": "Journal Article",
-    "category": "Museum Studies, Provenance Research, Material Culture, Colonial Collections",
+    "category": [
+      "Museum Studies",
+      "Material Culture"
+    ],
     "location": null,
     "summary": "A case study on mapping non-European objects in small museums, examining provenance and collection histories."
   },
@@ -189,7 +262,10 @@
     "date": "2025",
     "year": 2025,
     "type": "Journal Article",
-    "category": "Bible Translation, Imperial History",
+    "category": [
+      "Bible Translation",
+      "Imperialism"
+    ],
     "location": "East Africa",
     "summary": "Informed by an attention to global and transnational entanglements, this article examines the context and process of bible translations from German East Africa at the tail end of German colonial rule in the early twentieth century. Translation is always a process of negotiation and compromise, and through examining the processes behind the translation and publication of the Bible into Kinyiha and Kinyamwezi a number of imperial as well as religious tensions become evident. The publication of the Kinyamwezi translation was undertaken quickly in order fend off Catholic and Islam threats to the Protestant efforts of conversion.",
     "doi": "10.1080/03086534.2025.2508271"
@@ -199,7 +275,10 @@
     "date": "2026",
     "year": 2026,
     "type": "Journal Article",
-    "category": "Mission History, Post-colonialism",
+    "category": [
+      "Mission History",
+      "Colonialism"
+    ],
     "location": null,
     "summary": "A historical contextualization examining the afterlives of German missions in the context of German colonialism."
   },
@@ -208,7 +287,10 @@
     "date": "2025",
     "year": 2025,
     "type": "Journal Article",
-    "category": "Mission History, Internment",
+    "category": [
+      "Mission History",
+      "Internment"
+    ],
     "location": "East Africa",
     "summary": "During the First World War, German and British citizens in British and German colonies in East Africa were placed in internment camps. Men, women and children were separated and transferred over imperial boundaries to keep enemy citizens apart from their erstwhile colonial lives. Amongst the interned were many Protestant missionaries and their families, who had not expected to be affected by the European war and believed themselves above worldly politics. This article examines reports from British and German missionaries, focusing on the narratives of three men interned and deported from East Africa: a German in British East Africa; a British man in German East Africa; and a German in German East Africa.",
     "doi": "10.1093/gerhis/ghaf017"
@@ -218,7 +300,11 @@
     "date": "2025",
     "year": 2025,
     "type": "Journal Article",
-    "category": "Catholic Missions, Childhood, Trans-imperial History",
+    "category": [
+      "Mission History",
+      "Childhood",
+      "Imperialism"
+    ],
     "location": null,
     "summary": "An exploration of Papuan children and Catholic missionaries in the formation of transimperial networks in late nineteenth-century Europe."
   },
@@ -227,7 +313,11 @@
     "date": "2024",
     "year": 2024,
     "type": "Journal Article",
-    "category": "Film Studies, Colonialism, Religious Memory",
+    "category": [
+      "Film Studies",
+      "Colonialism",
+      "Religion"
+    ],
     "location": "Germany",
     "summary": "An examination of films depicting faith and colonial fantasy, exploring postcolonial religious memories in interwar Germany. This article analyzes how religious films from the interwar period reflected and shaped colonial imaginations in Germany.",
     "doi": "10.24894/2673-3641.00133"
@@ -237,7 +327,9 @@
     "date": "2024",
     "year": 2024,
     "type": "Journal Article",
-    "category": "Moravian Church, Religious History",
+    "category": [
+      "Religion"
+    ],
     "location": null,
     "summary": "At the end of July 1919, members of the American, Continental, and British Provinces of the Moravian Church came together for the first time in five years to discuss the state of the church's missions after the end of World War I. The preceding years had resulted in problems in terms of finances, administration, and labor as well as put into question the future of many mission fields. Nationalistic tensions ran high between members of the church, and there was a real concern that the worldwide Moravian Unity would be dissolved. That it did not was in part due to the sustained efforts of many members of the administrative bodies of the church.",
     "doi": "10.5325/jmorahist.24.1.0027"
@@ -247,7 +339,12 @@
     "date": "2024",
     "year": 2024,
     "type": "Journal Article",
-    "category": "Education History, Boarding Schools, Childhood, Methodology",
+    "category": [
+      "Education",
+      "Boarding Schools",
+      "Childhood",
+      "Methodology"
+    ],
     "location": null,
     "summary": "An examination of sources and methods for researching the history of boarding schools. This article provides guidance on the archival sources available for studying boarding school history and the methodological approaches researchers can employ.",
     "doi": "10.1080/0046760X.2023.2223559"
@@ -257,17 +354,24 @@
     "date": "2023",
     "year": 2023,
     "type": "Journal Article",
-    "category": "Settler Colonial Studies, Childhood, Institutional History",
+    "category": [
+      "Colonialism",
+      "Childhood",
+      "Institutional History"
+    ],
     "location": null,
     "summary": "A trans-imperial analysis of children and institutions in settler colonial contexts. This article examines how children experienced institutional care in various settler colonial societies across the British Empire.",
     "doi": null
   },
   {
-    "title": "Die Basler Mission und der Erste Weltkrieg: Die Verwendung der Berichte der aus Kamerun deportierten Missionspersonal f\u00fcr die deutsche Kriegspropaganda",
+    "title": "Die Basler Mission und der Erste Weltkrieg: Die Verwendung der Berichte der aus Kamerun deportierten Missionspersonal für die deutsche Kriegspropaganda",
     "date": "2022",
     "year": 2022,
     "type": "Journal Article",
-    "category": "Basel Mission, Propaganda",
+    "category": [
+      "Basel Mission",
+      "Propaganda"
+    ],
     "location": "Cameroon",
     "summary": "An examination of the Basel Mission during World War I and how reports from deportees were used for German war propaganda."
   },
@@ -276,7 +380,11 @@
     "date": "2022",
     "year": 2022,
     "type": "Journal Article",
-    "category": "Maritime History, Travel, Gender Studies",
+    "category": [
+      "History",
+      "Travel",
+      "Gender Studies"
+    ],
     "location": null,
     "summary": "An exploration of maritime journeys and the crossing of the equator in the 19th and 20th centuries."
   },
@@ -285,7 +393,11 @@
     "date": "2022",
     "year": 2022,
     "type": "Journal Article",
-    "category": "Maritime History, Diaries, Cultural History",
+    "category": [
+      "History",
+      "Diaries",
+      "Cultural History"
+    ],
     "location": null,
     "summary": "An analysis of shipboard diaries as sources for understanding the nineteenth-century maritime spectator."
   },
@@ -294,7 +406,11 @@
     "date": "2022",
     "year": 2022,
     "type": "Journal Article",
-    "category": "Mission Science, Nationalism, Interwar Period",
+    "category": [
+      "Religion",
+      "Nationalism",
+      "Interwar Period"
+    ],
     "location": null,
     "summary": "An examination of nationalism in German mission scholarship during the interwar period, focusing on Josef Schmidlin and Julius Richter."
   },
@@ -303,7 +419,11 @@
     "date": "2020",
     "year": 2020,
     "type": "Journal Article",
-    "category": "Material Culture, Popular Culture, Colonial Imagery",
+    "category": [
+      "Material Culture",
+      "Cultural History",
+      "Colonialism"
+    ],
     "location": null,
     "summary": "An examination of cigarette cards as a window to distant lands, exploring colonial imagery in popular culture."
   },
@@ -312,7 +432,12 @@
     "date": "2020",
     "year": 2020,
     "type": "Journal Article",
-    "category": "Gender Studies, Medical History, Emotions, Colonialism",
+    "category": [
+      "Gender Studies",
+      "Medical History",
+      "Emotions",
+      "Colonialism"
+    ],
     "location": null,
     "summary": "Silence around miscarriage remains within Western countries despite contemporaneous prevalence of miscarriages. This article examines the diaries of two religious women in colonial Australia and British India around the 1860s to question how mid-19th century women responded to their experiences of miscarriage before the beginning of the medicalisation of pregnancy in the 1880s. Their emotional responses reflected contemporaneous discursive practices, particularly those (quasi)medical ones warned women to maintain a neutral emotional state or risk a miscarriage.",
     "doi": "10.1111/1468-0424.12478"
@@ -322,7 +447,12 @@
     "date": "2018",
     "year": 2018,
     "type": "Journal Article",
-    "category": "Moravian Church, Mission History, Biography, Gender Studies",
+    "category": [
+      "Religion",
+      "Mission History",
+      "Biography",
+      "Gender Studies"
+    ],
     "location": null,
     "summary": "A biographical examination of Adolf and Mary Polly Hartmann through their letters from 1860-1910."
   },
@@ -331,7 +461,10 @@
     "date": "2018",
     "year": 2018,
     "type": "Journal Article",
-    "category": "Knowledge Production, Indigenous Studies",
+    "category": [
+      "Education",
+      "Indigenous Studies"
+    ],
     "location": "Australia",
     "summary": "This essay critically reviews the textual archive related to the two German mission stations in the South Australian Lake Eyre basin: the Lutheran Hermannsburg mission at Killalpaninna and the Moravian mission at Kopperamanna. The multiple entanglements of these stations far beyond their missionary activity become evident through examining distinctly religious material, such as mission journals, and secular texts, in German-language newspapers and scientific journals.",
     "doi": "10.4324/9780367822248-8"
@@ -341,7 +474,11 @@
     "date": "2018",
     "year": 2018,
     "type": "Journal Article",
-    "category": "Mission History, Education, Colonialism",
+    "category": [
+      "Mission History",
+      "Education",
+      "Colonialism"
+    ],
     "location": null,
     "summary": "In 1910 some 1200 delegates from Protestant missionary societies came together in Edinburgh, Scotland to attend a World Missionary Conference. This paper examines the discussion within the report regarding governmental attitudes to missionary education within colonial spaces. It provides a comparison between the aims of missionary education and the recorded experiences under various governments, particularly at times when they contrasted and conflicted.",
     "doi": "10.1080/0046760X.2018.1425741"
@@ -351,7 +488,11 @@
     "date": "2017",
     "year": 2017,
     "type": "Journal Article",
-    "category": "Moravian Church, Anthropology, Mission History",
+    "category": [
+      "Religion",
+      "Anthropology",
+      "Mission History"
+    ],
     "location": "Australia",
     "summary": "Notes from Moravian missionaries in Australia exploring their relationship with anthropological investigation. This article examines how missionaries engaged with (or resisted) anthropological discourse in the Australian colonial context.",
     "doi": "10.1080/00664677.2017.1365689"
@@ -361,7 +502,10 @@
     "date": "2016",
     "year": 2016,
     "type": "Journal Article",
-    "category": "Mission Schools, Education, Colonialism, Indigenous Teachers",
+    "category": [
+      "Education",
+      "Colonialism"
+    ],
     "location": null,
     "summary": "This dossier focusses on non-European teachers within mission schools in the nineteenth and twentieth centuries, especially in the period of colonial control. These teachers were central to the missionary project and helped to disseminate both Christianity and Western knowledge across the globe. Local teachers, alongside other mission assistants and helpers, also helped translate, transmit, and transform both Western and local forms of knowledge and contributed to broader discourse about knowledge.",
     "doi": "10.1017/S0165115316000620"
@@ -371,7 +515,11 @@
     "date": "2015",
     "year": 2015,
     "type": "Journal Article",
-    "category": "Moravian Church, Publishing History, Print Culture, Eighteenth Century",
+    "category": [
+      "Religion",
+      "Media Studies",
+      "History"
+    ],
     "location": null,
     "summary": "An examination of the Moravian periodical Accounts and the pressures of publishing in eighteenth-century Britain. This article explores how the Moravian Church navigated print culture and publication in the early modern period.",
     "doi": "10.5325/jmorahist.15.1.0001"
@@ -381,7 +529,12 @@
     "date": "2015",
     "year": 2015,
     "type": "Journal Article",
-    "category": "Moravian Church, Mission History, Gender Studies, Biography",
+    "category": [
+      "Religion",
+      "Mission History",
+      "Gender Studies",
+      "Biography"
+    ],
     "location": null,
     "summary": "Women were an integral, yet often overlooked, aspect of Protestant mission work in the nineteenth century. Married female missionaries were seen as important workers especially as their common gender identification allowed them to more easily communicate with indigenous women than male missionaries were able to. The diaries and letters of one female missionary, Mary (Polly) Hartmann (1838-1916), who worked on the Ebenezer mission station in Colonial Victoria from 1863 to 1875, provides an unusual insight into the daily life of a European woman on the Aboriginal mission in the nineteenth century.",
     "doi": "10.1080/14443058.2014.989882"
@@ -391,7 +544,11 @@
     "date": "2013",
     "year": 2013,
     "type": "Journal Article",
-    "category": "Mission Schools, Education, Space Studies, Cultural History",
+    "category": [
+      "Education",
+      "Astronomy",
+      "Cultural History"
+    ],
     "location": null,
     "summary": "Nineteenth century Protestant Mission schools were dynamic spaces, constantly reacting and adapting to hierarchic and hegemonic demands, whether of political, religious or societal nature. They were also ideological spaces, which through their form and function, articulated notions of the 'proper' place of non-Europeans in colonial society. This article examines the interconnected cultural, didactic and physical 'spaces' of mission schools in which a variety of competing ideologies and expectations were negotiated.",
     "doi": null
@@ -401,7 +558,9 @@
     "date": "2013",
     "year": 2013,
     "type": "Journal Article",
-    "category": "Mission Periodicals, Publishing History, Media Studies",
+    "category": [
+      "Media Studies"
+    ],
     "location": null,
     "summary": "At the 1860 conference on Protestant missions held in Liverpool, a session was dedicated to the use of the reported 200,000 monthly missionary periodicals produced by various societies for encouraging the home support of missionary work. The 125 delegates from more than twenty-five Protestant missionary societies both in Britain and abroad had divergent opinions on the prospective contents and audiences for missionary periodicals.",
     "doi": "10.1017/S0009640713000036"
@@ -411,7 +570,9 @@
     "date": "2013",
     "year": 2013,
     "type": "Journal Article",
-    "category": "Mission Periodicals, Publishing History, Media Studies",
+    "category": [
+      "Media Studies"
+    ],
     "location": null,
     "summary": "During the nineteenth century, over 300 missionary periodicals were established in Britain, along with hundreds in North America, Europe, and the colonial world, yet little has been written about the rationale behind their establishment. From their beginnings as sources of intelligence, periodicals developed into vehicles of influence by the first decades of the nineteenth century, with missionary organizations also using this reduplicated commodity to deliberately persuade and mold public attitudes.",
     "doi": "10.1017/S0009640713000048"
@@ -421,7 +582,11 @@
     "date": "2012",
     "year": 2012,
     "type": "Journal Article",
-    "category": "Moravian Church, Publishing History, Historiography",
+    "category": [
+      "Religion",
+      "Media Studies",
+      "History"
+    ],
     "location": "Greenland",
     "summary": "An examination of the publication and reception of David Cranz's History of Greenland from 1767. This article traces how this important Moravian publication was received in Britain and its impact on understandings of Greenland and indigenous peoples.",
     "doi": "10.1093/library/13.4.457"
@@ -431,7 +596,10 @@
     "date": "2012",
     "year": 2012,
     "type": "Journal Article",
-    "category": "Mission Schools, Education, Gender Studies",
+    "category": [
+      "Education",
+      "Gender Studies"
+    ],
     "location": "Australia",
     "summary": "An examination of staffing practices at the Ramahyuck mission school in nineteenth-century Australia."
   },
@@ -440,7 +608,10 @@
     "date": "2012",
     "year": 2012,
     "type": "Journal Article",
-    "category": "Moravian Church, Mission Periodicals, Publishing History",
+    "category": [
+      "Religion",
+      "Media Studies"
+    ],
     "location": null,
     "summary": "The nineteenth century was a boom time for the genre of missionary periodicals. Missionary periodicals were established by religious organizations, societies, and churches for their members, for the general public, for theologians, for women, for children, and for converted non-Europeans, and their growth reflected the expansion of missionary societies into the non-European colonial world. This article examines the rationale behind the establishment of three Moravian Church missionary periodicals.",
     "doi": "10.1111/j.1467-9809.2011.01168.x"
@@ -450,7 +621,12 @@
     "date": "2012",
     "year": 2012,
     "type": "Journal Article",
-    "category": "Mission History, Education, Church-State Relations, Colonialism",
+    "category": [
+      "Mission History",
+      "Education",
+      "Church-State Relations",
+      "Colonialism"
+    ],
     "location": null,
     "summary": "Part 1 of an examination of missionaries and education in the 19th century English-speaking world, focusing on church-state relations."
   },
@@ -459,7 +635,12 @@
     "date": "2012",
     "year": 2012,
     "type": "Journal Article",
-    "category": "Mission History, Education, Race, Gender Studies",
+    "category": [
+      "Mission History",
+      "Education",
+      "Race",
+      "Gender Studies"
+    ],
     "location": null,
     "summary": "Part 2 of an examination of missionaries and education focusing on race, class, and gender dimensions."
   },
@@ -468,7 +649,11 @@
     "date": "2012",
     "year": 2012,
     "type": "Journal Article",
-    "category": "Moravian Church, Collecting, Ethnography, Material Culture",
+    "category": [
+      "Religion",
+      "Material Culture",
+      "Ethnography"
+    ],
     "location": null,
     "summary": "As proto-ethnologists, missionaries represented an important source of ethnographical material, collecting for many museums and displays. It is contended here that European missions affected the collecting habits of their missionaries through actively encouraging or discouraging collecting on behalf of certain institutions. The motivation behind the endorsement of certain collecting habits and not others was linked to the missionary societies' perceptions of themselves.",
     "doi": "10.1093/jhc/fhq043"
@@ -478,7 +663,11 @@
     "date": "2011",
     "year": 2011,
     "type": "Journal Article",
-    "category": "Moravian Church, Mission Education, Colonialism",
+    "category": [
+      "Religion",
+      "Education",
+      "Colonialism"
+    ],
     "location": "Canada",
     "summary": "An examination of Moravian mission education patterns and their local manifestations in Upper Canada."
   },
@@ -487,7 +676,11 @@
     "date": "2011",
     "year": 2011,
     "type": "Journal Article",
-    "category": "Mission Periodicals, Childhood, Orientalism, Media Studies",
+    "category": [
+      "Media Studies",
+      "Childhood",
+      "Orientalism"
+    ],
     "location": null,
     "summary": "An analysis of how non-Western others were constructed in a nineteenth-century children's missionary periodical. This article focuses specifically upon The Little Missionary, published between 1870 and 1920 by the Moravian Church in Bethlehem, Pennsylvania.",
     "doi": null
@@ -497,7 +690,11 @@
     "date": "2010",
     "year": 2010,
     "type": "Journal Article",
-    "category": "Colonialism, Gender Studies, Indigenous Studies",
+    "category": [
+      "Colonialism",
+      "Gender Studies",
+      "Indigenous Studies"
+    ],
     "location": "Australia",
     "summary": "An examination of Friedrich Hagenauer's control over marriages of Indigenous Western Australian women in colonial Victoria. This article explores the intersection of mission policy, colonial law, and gender in the control of indigenous women's marriages.",
     "doi": null
@@ -507,7 +704,11 @@
     "date": "2010",
     "year": 2010,
     "type": "Journal Article",
-    "category": "Moravian Church, Migration, Colonialism",
+    "category": [
+      "Religion",
+      "Migration",
+      "Colonialism"
+    ],
     "location": "Australia",
     "summary": "An examination of German Moravians at Bethel in colonial South Australia during 1851-1907."
   },
@@ -516,7 +717,10 @@
     "date": "2009",
     "year": 2009,
     "type": "Journal Article",
-    "category": "Moravian Church, Mission History",
+    "category": [
+      "Religion",
+      "Mission History"
+    ],
     "location": "Australia",
     "summary": "An exploration of three distinctive features of the southern Australian Moravian mission field."
   },
@@ -525,7 +729,9 @@
     "date": "2003",
     "year": 2003,
     "type": "Journal Article",
-    "category": "Higher Education, Education Policy",
+    "category": [
+      "Education"
+    ],
     "location": "Australia",
     "summary": "An examination of flexibility in the Australian higher education framework."
   },
@@ -534,7 +740,9 @@
     "date": "2003",
     "year": 2003,
     "type": "Journal Article",
-    "category": "Historical Methodology",
+    "category": [
+      "Methodology"
+    ],
     "location": "Australia",
     "summary": "A methodological examination of writing about the Lake Boga failure."
   },
@@ -543,7 +751,11 @@
     "date": "2026",
     "year": 2026,
     "type": "Book Chapter",
-    "category": "Protestant Missions, Basel Mission, Historiography",
+    "category": [
+      "Mission History",
+      "Basel Mission",
+      "History"
+    ],
     "location": null,
     "summary": "A chapter examining interconnected approaches to Protestant mission histories, focusing on the Basel Mission."
   },
@@ -552,7 +764,10 @@
     "date": "2026",
     "year": 2026,
     "type": "Book Chapter",
-    "category": "Land Ownership, Moravian Church",
+    "category": [
+      "Economics",
+      "Religion"
+    ],
     "location": "East Africa",
     "summary": "An examination of land purchasing practices in German East Africa by Moravian missionaries."
   },
@@ -561,7 +776,10 @@
     "date": "2025",
     "year": 2025,
     "type": "Book Chapter",
-    "category": "Rheinische Missionsgesellschaft, Loyalty",
+    "category": [
+      "Rheinische Missionsgesellschaft",
+      "Loyalty"
+    ],
     "location": "Papua New Guinea",
     "summary": "An exploration of transloyalties among missionaries from the Rheinische Missionsgesellschaft in German New Guinea during WWI."
   },
@@ -570,43 +788,58 @@
     "date": "2025",
     "year": 2025,
     "type": "Book Chapter",
-    "category": "Gender Studies, Colonialism",
+    "category": [
+      "Gender Studies",
+      "Colonialism"
+    ],
     "location": "Cameroon",
     "summary": "An examination of women's experiences during WWI in German Cameroon."
   },
   {
-    "title": "M\u00fcnster und das M\u00fcnsterland als Kolonialschaufenster",
+    "title": "Münster und das Münsterland als Kolonialschaufenster",
     "date": "2024",
     "year": 2024,
     "type": "Book Chapter",
-    "category": "Regional History, Public History",
+    "category": [
+      "History"
+    ],
     "location": null,
-    "summary": "An examination of M\u00fcnster and the M\u00fcnsterland as a showcase for colonialism."
+    "summary": "An examination of Münster and the Münsterland as a showcase for colonialism."
   },
   {
-    "title": "Ein Besuch aus Neu Guinea: Kolonialismus und Mission in M\u00fcnsterland",
+    "title": "Ein Besuch aus Neu Guinea: Kolonialismus und Mission in Münsterland",
     "date": "2024",
     "year": 2024,
     "type": "Book Chapter",
-    "category": "Mission History, Regional History",
+    "category": [
+      "Mission History",
+      "History"
+    ],
     "location": "Papua New Guinea",
-    "summary": "An exploration of visits from New Guinea and the relationship between colonialism and mission in the M\u00fcnsterland."
+    "summary": "An exploration of visits from New Guinea and the relationship between colonialism and mission in the Münsterland."
   },
   {
-    "title": "Einleitung: Mehr als die Summe seiner Teile: David Cranz' Historie von Gr\u00f6nland",
+    "title": "Einleitung: Mehr als die Summe seiner Teile: David Cranz' Historie von Grönland",
     "date": "2024",
     "year": 2024,
     "type": "Book Chapter",
-    "category": "Moravian Church, Historiography",
+    "category": [
+      "Religion",
+      "History"
+    ],
     "location": "Greenland",
     "summary": "Introduction examining David Cranz's History of Greenland as more than the sum of its parts."
   },
   {
-    "title": "A collection of Absurdities: Die Rezeption zweier englischer Versionen von Cranz' Buch in Gro\u00dfbritannien, 1767 und 1820",
+    "title": "A collection of Absurdities: Die Rezeption zweier englischer Versionen von Cranz' Buch in Großbritannien, 1767 und 1820",
     "date": "2024",
     "year": 2024,
     "type": "Book Chapter",
-    "category": "Moravian Church, Translation Studies, Reception Studies",
+    "category": [
+      "Religion",
+      "Translation Studies",
+      "Reception Studies"
+    ],
     "location": "Greenland",
     "summary": "An examination of the reception of two English versions of Cranz's book in Britain in 1767 and 1820."
   },
@@ -615,7 +848,11 @@
     "date": "2023",
     "year": 2023,
     "type": "Book Chapter",
-    "category": "Spanish Flu, Epidemics, Colonialism",
+    "category": [
+      "Spanish Flu",
+      "Epidemics",
+      "Colonialism"
+    ],
     "location": "Australia",
     "summary": "An exploration of the Spanish Flu and its impact on First Australians, examining colonial narratives of moral weakness."
   },
@@ -624,7 +861,10 @@
     "date": "2022",
     "year": 2022,
     "type": "Book Chapter",
-    "category": "Botany, Colonial Collecting, Material Culture",
+    "category": [
+      "Biology",
+      "Material Culture"
+    ],
     "location": null,
     "summary": "An examination of networks of collecting practices in colonial Germany, focusing on botanical collections."
   },
@@ -633,7 +873,11 @@
     "date": "2022",
     "year": 2022,
     "type": "Book Chapter",
-    "category": "Museum Studies, Colonial Collections, Regional History",
+    "category": [
+      "Museum Studies",
+      "Material Culture",
+      "History"
+    ],
     "location": "Germany",
     "summary": "An exploration of colonial traces and structures in Westphalia-Lippe museum institutions."
   },
@@ -642,7 +886,11 @@
     "date": "2022",
     "year": 2022,
     "type": "Book Chapter",
-    "category": "Boarding Schools, Education History, Childhood",
+    "category": [
+      "Boarding Schools",
+      "Education",
+      "Childhood"
+    ],
     "location": null,
     "summary": "A chapter providing global perspectives on boarding schools in the nineteenth and twentieth centuries."
   },
@@ -651,16 +899,23 @@
     "date": "2021",
     "year": 2021,
     "type": "Book Chapter",
-    "category": "Moravian Church, Reception Studies, Science History",
+    "category": [
+      "Religion",
+      "Reception Studies",
+      "History"
+    ],
     "location": "Greenland",
     "summary": "An examination of the religious and scientific reception of David Cranz's History of Greenland in Britain."
   },
   {
-    "title": "More than the Sum of its Parts: David Cranz's Historie von Gr\u00f6nland",
+    "title": "More than the Sum of its Parts: David Cranz's Historie von Grönland",
     "date": "2021",
     "year": 2021,
     "type": "Book Chapter",
-    "category": "Moravian Church, Historiography",
+    "category": [
+      "Religion",
+      "History"
+    ],
     "location": "Greenland",
     "summary": "An examination of David Cranz's History of Greenland as a multifaceted historical text."
   },
@@ -669,7 +924,10 @@
     "date": "2020",
     "year": 2020,
     "type": "Book Chapter",
-    "category": "Knowledge Production, Indigenous Studies",
+    "category": [
+      "Education",
+      "Indigenous Studies"
+    ],
     "location": "Australia",
     "summary": "A reprint examining knowledge production about the Australian interior through German texts from the 1860s."
   },
@@ -678,16 +936,23 @@
     "date": "2020",
     "year": 2020,
     "type": "Book Chapter",
-    "category": "Gender Studies, Mission History, Colonialism",
+    "category": [
+      "Gender Studies",
+      "Mission History",
+      "Colonialism"
+    ],
     "location": "India",
     "summary": "An exploration of gendered epistemic violence in nineteenth-century missionary representations of India."
   },
   {
-    "title": "Dann kam der Krieg: Die Pers\u00f6nlichen Erinnerungen Deutscher Missionare im Ausland um 1914",
+    "title": "Dann kam der Krieg: Die Persönlichen Erinnerungen Deutscher Missionare im Ausland um 1914",
     "date": "2019",
     "year": 2019,
     "type": "Book Chapter",
-    "category": "Mission History, Memory",
+    "category": [
+      "Mission History",
+      "Emotions"
+    ],
     "location": "Germany",
     "summary": "An examination of personal memories of German missionaries abroad around 1914."
   },
@@ -696,25 +961,35 @@
     "date": "2018",
     "year": 2018,
     "type": "Book Chapter",
-    "category": "Mission Periodicals, Childhood, Media Studies",
+    "category": [
+      "Media Studies",
+      "Childhood"
+    ],
     "location": "Germany",
     "summary": "An analysis of depictions of children in the Evangelisch-Lutherisches Missionsblatt from 1860-1910."
   },
   {
-    "title": "Fischst\u00e4bchen in der Bundesrepublik Deutschland: Eine Geschichte des Technologischen und Gesellschaftlichen Wandel",
+    "title": "Fischstäbchen in der Bundesrepublik Deutschland: Eine Geschichte des Technologischen und Gesellschaftlichen Wandel",
     "date": "2018",
     "year": 2018,
     "type": "Book Chapter",
-    "category": "Food History, Technology, Social History",
+    "category": [
+      "History",
+      "Science"
+    ],
     "location": null,
     "summary": "A history of fish sticks in the Federal Republic of Germany, examining technological and social change."
   },
   {
-    "title": "Kurze Anweisung Naturalien zu sammeln: Ein historischer Blick auf die Sammlungst\u00e4tigkeit protestantischer Missionare",
+    "title": "Kurze Anweisung Naturalien zu sammeln: Ein historischer Blick auf die Sammlungstätigkeit protestantischer Missionare",
     "date": "2017",
     "year": 2017,
     "type": "Book Chapter",
-    "category": "Protestant Missions, Collecting, Material Culture, Ethnography",
+    "category": [
+      "Mission History",
+      "Material Culture",
+      "Ethnography"
+    ],
     "location": null,
     "summary": "A historical examination of collecting practices by Protestant missionaries."
   },
@@ -723,16 +998,23 @@
     "date": "2017",
     "year": 2017,
     "type": "Book Chapter",
-    "category": "Death, Emotions, Religious History",
+    "category": [
+      "Emotions",
+      "Religion"
+    ],
     "location": null,
     "summary": "An exploration of the voice of mourning in religious and historical contexts."
   },
   {
-    "title": "Stimm-Wunder? Nachgedanken zur Interdisziplinarit\u00e4t",
+    "title": "Stimm-Wunder? Nachgedanken zur Interdisziplinarität",
     "date": "2017",
     "year": 2017,
     "type": "Book Chapter",
-    "category": "Interdisciplinary Studies, Voice Studies, Religious History",
+    "category": [
+      "Methodology",
+      "Media Studies",
+      "Religion"
+    ],
     "location": null,
     "summary": "Reflections on interdisciplinary approaches to the study of voice."
   },
@@ -741,7 +1023,12 @@
     "date": "2017",
     "year": 2017,
     "type": "Book Chapter",
-    "category": "Mormonism, Education, Travel, Nineteenth Century",
+    "category": [
+      "Religion",
+      "Education",
+      "Travel",
+      "History"
+    ],
     "location": null,
     "summary": "An exploration of traveling voices, examining Mormons and schoolteachers in the nineteenth century."
   },
@@ -750,16 +1037,24 @@
     "date": "2017",
     "year": 2017,
     "type": "Book Chapter",
-    "category": "Quakers, Print Culture, Seventeenth Century, Religious History",
+    "category": [
+      "Religion",
+      "Media Studies",
+      "History"
+    ],
     "location": null,
     "summary": "An examination of Quakers' use of print in seventeenth-century England."
   },
   {
-    "title": "Briefe, Bibeln und Bilder: Das Medienbewusstsein der Society for Promoting Christian Knowledge in Bezug auf die Verbreitung von Informationen \u00fcber die D\u00e4nisch-Hallesche Mission in Tranquebar innerhalb der englischsprachigen Welt am Anfang des 18. Jahrhunderts",
+    "title": "Briefe, Bibeln und Bilder: Das Medienbewusstsein der Society for Promoting Christian Knowledge in Bezug auf die Verbreitung von Informationen über die Dänisch-Hallesche Mission in Tranquebar innerhalb der englischsprachigen Welt am Anfang des 18. Jahrhunderts",
     "date": "2016",
     "year": 2016,
     "type": "Book Chapter",
-    "category": "SPCK, Media Studies, Bible Translation",
+    "category": [
+      "SPCK",
+      "Media Studies",
+      "Bible Translation"
+    ],
     "location": "India",
     "summary": "An examination of the Society for Promoting Christian Knowledge's media awareness regarding the Danish-Halle Mission in Tranquebar."
   },
@@ -768,7 +1063,11 @@
     "date": "2015",
     "year": 2015,
     "type": "Book Chapter",
-    "category": "Moravian Church, Conversion, Protestant Missions, Anthropology",
+    "category": [
+      "Religion",
+      "Mission History",
+      "Anthropology"
+    ],
     "location": null,
     "summary": "An examination of the representation of the Moravian convert Kayarnak in Protestant missionary texts."
   },
@@ -777,7 +1076,10 @@
     "date": "2015",
     "year": 2015,
     "type": "Book Chapter",
-    "category": "Mission History, Anthropology, Contact Studies",
+    "category": [
+      "Mission History",
+      "Anthropology"
+    ],
     "location": "Australia",
     "summary": "An exploration of reporting from the religious contact zone between missionaries and anthropologists in nineteenth-century Australia."
   },
@@ -786,7 +1088,10 @@
     "date": "2015",
     "year": 2015,
     "type": "Book Chapter",
-    "category": "Colonialism, Religion",
+    "category": [
+      "Colonialism",
+      "Religion"
+    ],
     "location": "Palestine",
     "summary": "An examination of German Templer colonies in Palestine and their relationship to colonialism."
   },
@@ -795,7 +1100,10 @@
     "date": "2013",
     "year": 2013,
     "type": "Book Chapter",
-    "category": "Mission Periodicals, Media Studies, Introduction",
+    "category": [
+      "Media Studies",
+      "Introduction"
+    ],
     "location": null,
     "summary": "Introduction to the volume on media and mission, examining the politics of missionary periodicals."
   },
@@ -804,7 +1112,11 @@
     "date": "2013",
     "year": 2013,
     "type": "Book Chapter",
-    "category": "Mission Periodicals, Colonialism, Political History",
+    "category": [
+      "Media Studies",
+      "Colonialism",
+      "History"
+    ],
     "location": null,
     "summary": "An examination of diverging reports on European politics and colonial aspirations in missionary periodicals."
   },
@@ -813,7 +1125,11 @@
     "date": "2013",
     "year": 2013,
     "type": "Book Chapter",
-    "category": "Colonial Law, Education, Race",
+    "category": [
+      "Colonialism",
+      "Education",
+      "Race"
+    ],
     "location": null,
     "summary": "An examination of laws, education, and race in the British colonial world, focusing on mission societies in Australia and Canada."
   },
@@ -822,7 +1138,11 @@
     "date": "2012",
     "year": 2012,
     "type": "Book Chapter",
-    "category": "Mission Periodicals, Childhood, Identity Studies",
+    "category": [
+      "Media Studies",
+      "Childhood",
+      "Identity"
+    ],
     "location": null,
     "summary": "An examination of friend, stranger, and enemy images in a nineteenth-century North American children's missionary periodical."
   },
@@ -831,7 +1151,11 @@
     "date": "2010",
     "year": 2010,
     "type": "Book Chapter",
-    "category": "Moravian Church, Colonialism, Migration",
+    "category": [
+      "Religion",
+      "Colonialism",
+      "Migration"
+    ],
     "location": null,
     "summary": "An examination of German Moravian missionaries as colonial agents in the English-speaking world."
   },
@@ -840,7 +1164,11 @@
     "date": "2008",
     "year": 2008,
     "type": "Book Chapter",
-    "category": "Moravian Church, Colonialism, Criticism",
+    "category": [
+      "Religion",
+      "Colonialism",
+      "Criticism"
+    ],
     "location": null,
     "summary": "An exploration of Moravian missionaries as imperial critics in the British colonial world."
   },
@@ -849,7 +1177,9 @@
     "date": "2007",
     "year": 2007,
     "type": "Book Chapter",
-    "category": "Higher Education, Education Policy, Comparative Education",
+    "category": [
+      "Education"
+    ],
     "location": "Australia",
     "summary": "An Australian perspective on the Anglophone approach to bachelor's and master's degree structures."
   },
@@ -858,7 +1188,11 @@
     "date": "2006",
     "year": 2006,
     "type": "Book Chapter",
-    "category": "Moravian Church, Land Ownership, Colonialism",
+    "category": [
+      "Religion",
+      "Economics",
+      "Colonialism"
+    ],
     "location": "Australia",
     "summary": "An examination of Moravian missionaries' ideas about land ownership in colonial Victoria."
   },
@@ -867,7 +1201,11 @@
     "date": "2004",
     "year": 2004,
     "type": "Book Chapter",
-    "category": "Moravian Church, Ethnography, Science History",
+    "category": [
+      "Religion",
+      "Ethnography",
+      "History"
+    ],
     "location": "Australia",
     "summary": "An examination of Moravian missionaries' contributions to ethnographical studies in Victoria."
   },
@@ -876,25 +1214,36 @@
     "date": "2004",
     "year": 2004,
     "type": "Book Chapter",
-    "category": "Identity, Colonialism",
+    "category": [
+      "Identity",
+      "Colonialism"
+    ],
     "location": null,
     "summary": "An exploration of German-speaking missionaries' concepts of Britishness."
   },
   {
-    "title": "Relig\u00f6se Artefakte, Beutekunst und Postkolonialismus",
+    "title": "Religöse Artefakte, Beutekunst und Postkolonialismus",
     "date": null,
     "year": null,
     "type": "Handbook Article",
-    "category": "Religious Artifacts, Spoils of War, Post-colonialism, Intercultural Theology",
+    "category": [
+      "Religion",
+      "Spoils of War",
+      "Colonialism"
+    ],
     "location": null,
     "summary": "A handbook article examining religious artifacts, spoils of war, and postcolonialism in the context of intercultural theology."
   },
   {
-    "title": "Global Bible - Verm\u00e4chtnisse von (Post)Kolonialen Bibel\u00fcbersetzungen in der Arktis, Ozeanien und Westafrika",
+    "title": "Global Bible - Vermächtnisse von (Post)Kolonialen Bibelübersetzungen in der Arktis, Ozeanien und Westafrika",
     "date": "2025",
     "year": 2025,
     "type": "Exhibition Catalogue",
-    "category": "Bible Translation, Colonialism, Exhibition",
+    "category": [
+      "Bible Translation",
+      "Colonialism",
+      "Exhibition"
+    ],
     "location": "Arctic, Oceania, West Africa",
     "summary": "An exhibition catalogue exploring legacies of (post)colonial Bible translations in the Arctic, Oceania, and West Africa."
   },
@@ -903,7 +1252,10 @@
     "date": "2025",
     "year": 2025,
     "type": "Exhibition Catalogue Contribution",
-    "category": "Bible Translation, Colonialism",
+    "category": [
+      "Bible Translation",
+      "Colonialism"
+    ],
     "location": "Australia, Oceania",
     "summary": "An exhibition contribution examining the Bible in Australia and Oceania."
   },
@@ -912,7 +1264,11 @@
     "date": "2025",
     "year": 2025,
     "type": "Exhibition Catalogue Contribution",
-    "category": "Bible Societies, Colonialism, Translation",
+    "category": [
+      "Bible Translation",
+      "Colonialism",
+      "Translation Studies"
+    ],
     "location": "Britain, Germany",
     "summary": "An examination of British and German Bible Societies and their role in translating colonialism from 1800-1914."
   },
@@ -921,16 +1277,23 @@
     "date": "2025",
     "year": 2025,
     "type": "Exhibition Catalogue Contribution",
-    "category": "Mission History, Colonialism, Collections, Museums",
+    "category": [
+      "Mission History",
+      "Colonialism",
+      "Material Culture",
+      "Museum Studies"
+    ],
     "location": null,
     "summary": "An exploration of the relationship between mission and colonialism in museum collections."
   },
   {
-    "title": "Schilderungen aus der S\u00fcdsee: die Verbreitung von Missionsperiodika und ihre Rolle in der deutschen \u00d6ffentlichkeit",
+    "title": "Schilderungen aus der Südsee: die Verbreitung von Missionsperiodika und ihre Rolle in der deutschen Öffentlichkeit",
     "date": "2018",
     "year": 2018,
     "type": "Exhibition Catalogue Contribution",
-    "category": "Mission Periodicals, Media",
+    "category": [
+      "Media Studies"
+    ],
     "location": "Pacific",
     "summary": "An examination of descriptions from the South Seas and the spread of missionary periodicals in German public life."
   },
@@ -939,7 +1302,12 @@
     "date": "2025",
     "year": 2025,
     "type": "Book Review",
-    "category": "Book Review, Education, Colonialism, Indigenous Peoples",
+    "category": [
+      "Book Review",
+      "Education",
+      "Colonialism",
+      "Indigenous Studies"
+    ],
     "location": null,
     "summary": "A review of Stuart D. McKee's book on indigenous enlightenment and evangelical colonialism."
   },
@@ -948,7 +1316,10 @@
     "date": "2024",
     "year": 2024,
     "type": "Book Review",
-    "category": "Book Review, Catholic Church, Religious History",
+    "category": [
+      "Book Review",
+      "Religion"
+    ],
     "location": "Australia",
     "summary": "A review of a book on Catholic thought and action in Australian history."
   },
@@ -957,16 +1328,23 @@
     "date": "2022",
     "year": 2022,
     "type": "Book Review",
-    "category": "Book Review, Mission History, Education",
+    "category": [
+      "Book Review",
+      "Mission History",
+      "Education"
+    ],
     "location": null,
     "summary": "A presentation of Felicity Jensz's own book on missionaries and modernity in the British Empire."
   },
   {
-    "title": "Book Review: F\u00fchr uns an der Hand bis ins Vaterland! Die Auwanderung preussischer Altlutheraner nach S\u00fcdaustralien",
+    "title": "Book Review: Führ uns an der Hand bis ins Vaterland! Die Auwanderung preussischer Altlutheraner nach Südaustralien",
     "date": "2022",
     "year": 2022,
     "type": "Book Review",
-    "category": "Book Review, Lutheranism",
+    "category": [
+      "Book Review",
+      "Religion"
+    ],
     "location": "Australia",
     "summary": "A review of a book on Prussian Old Lutheran emigration to South Australia."
   },
@@ -975,7 +1353,10 @@
     "date": "2023",
     "year": 2023,
     "type": "Book Review",
-    "category": "Book Review, Mission Education",
+    "category": [
+      "Book Review",
+      "Education"
+    ],
     "location": null,
     "summary": "A review of a book on missionary education from historical and global perspectives."
   },
@@ -984,7 +1365,11 @@
     "date": "2021",
     "year": 2021,
     "type": "Book Review",
-    "category": "Book Review, Mission History, Religious History",
+    "category": [
+      "Book Review",
+      "Mission History",
+      "Religion"
+    ],
     "location": "Australia",
     "summary": "A review of works on missions and religion in Australia."
   },
@@ -993,7 +1378,12 @@
     "date": "2021",
     "year": 2021,
     "type": "Book Review",
-    "category": "Book Review, Education, Childhood, Colonialism",
+    "category": [
+      "Book Review",
+      "Education",
+      "Childhood",
+      "Colonialism"
+    ],
     "location": null,
     "summary": "A review of Rebecca Swartz's book on education and empire in British settler colonies."
   },
@@ -1002,7 +1392,11 @@
     "date": "2021",
     "year": 2021,
     "type": "Book Review",
-    "category": "Book Review, Natural History, Settler Society",
+    "category": [
+      "Book Review",
+      "History",
+      "Colonialism"
+    ],
     "location": "South Africa",
     "summary": "A review of a book on Mary Elizabeth Barber and natural history at the Cape."
   },
@@ -1011,7 +1405,11 @@
     "date": "2021",
     "year": 2021,
     "type": "Book Review",
-    "category": "Book Review, Quakers, Colonialism",
+    "category": [
+      "Book Review",
+      "Religion",
+      "Colonialism"
+    ],
     "location": "Australia",
     "summary": "A review of a book on Quaker colonizers in nineteenth-century Australia."
   },
@@ -1020,16 +1418,25 @@
     "date": "2020",
     "year": 2020,
     "type": "Book Review",
-    "category": "Book Review, Education, Childhood, Colonialism",
+    "category": [
+      "Book Review",
+      "Education",
+      "Childhood",
+      "Colonialism"
+    ],
     "location": null,
     "summary": "A review of a book on education and empire in British settler colonies."
   },
   {
-    "title": "Review of: Mission und Sklaverei. Die Herrnhuter Br\u00fcdergemeine und die Sklavenemanzipation in British- und D\u00e4nisch-Westindien",
+    "title": "Review of: Mission und Sklaverei. Die Herrnhuter Brüdergemeine und die Sklavenemanzipation in British- und Dänisch-Westindien",
     "date": "2018",
     "year": 2018,
     "type": "Book Review",
-    "category": "Book Review, Moravian Church, Slavery, Emancipation",
+    "category": [
+      "Book Review",
+      "Religion",
+      "History"
+    ],
     "location": "Caribbean",
     "summary": "A review of a book on Moravian missions and slave emancipation in the Caribbean."
   },
@@ -1038,7 +1445,10 @@
     "date": "2015",
     "year": 2015,
     "type": "Book Review",
-    "category": "Book Review, Mission History",
+    "category": [
+      "Book Review",
+      "Mission History"
+    ],
     "location": null,
     "summary": "A review of a book on global mission history since the nineteenth century."
   },
@@ -1047,7 +1457,10 @@
     "date": "2014",
     "year": 2014,
     "type": "Book Review",
-    "category": "Book Review, Imperialism",
+    "category": [
+      "Book Review",
+      "Imperialism"
+    ],
     "location": "United States",
     "summary": "A review of a book on German expansionism and imperial liberalism."
   },
@@ -1056,7 +1469,11 @@
     "date": "2014",
     "year": 2014,
     "type": "Book Review",
-    "category": "Book Review, Mission History, Knowledge",
+    "category": [
+      "Book Review",
+      "Mission History",
+      "Education"
+    ],
     "location": null,
     "summary": "A review of a book on mission history as the history of globalization of knowledge."
   },
@@ -1065,7 +1482,10 @@
     "date": "2011",
     "year": 2011,
     "type": "Book Review",
-    "category": "Book Review, Imperialism, Moral Empire",
+    "category": [
+      "Book Review",
+      "Imperialism"
+    ],
     "location": null,
     "summary": "A review of Ian Tyrrell's book on America's moral empire."
   },
@@ -1074,16 +1494,24 @@
     "date": "2010",
     "year": 2010,
     "type": "Book Review",
-    "category": "Moravian Church, Communication, Science, Darwin",
+    "category": [
+      "Religion",
+      "Media Studies",
+      "History",
+      "Darwin"
+    ],
     "location": null,
     "summary": "An examination of communication between Moravian missionary F.A. Hagenauer and scientist Charles Darwin."
   },
   {
-    "title": "Rezensiert: Mettele, Gisela, Weltb\u00fcrgertum oder Gottesreich. Die Herrnhuter Br\u00fcdergemeine als globale Gemeinschaft 1727-1857",
+    "title": "Rezensiert: Mettele, Gisela, Weltbürgertum oder Gottesreich. Die Herrnhuter Brüdergemeine als globale Gemeinschaft 1727-1857",
     "date": "2010",
     "year": 2010,
     "type": "Book Review",
-    "category": "Book Review, Moravian Church, Religious History",
+    "category": [
+      "Book Review",
+      "Religion"
+    ],
     "location": null,
     "summary": "A review of a book on the Moravian Church as a global community."
   },
@@ -1092,7 +1520,9 @@
     "date": "2010",
     "year": 2010,
     "type": "Book Review",
-    "category": "Book Review",
+    "category": [
+      "Book Review"
+    ],
     "location": "China, United States",
     "summary": "A review of a book on US-China interactions from 1880-1950."
   },
@@ -1101,7 +1531,11 @@
     "date": "2009",
     "year": 2009,
     "type": "Conference Report",
-    "category": "Conference Report, Mission History, Communication, Publishing",
+    "category": [
+      "Methodology",
+      "Mission History",
+      "Media Studies"
+    ],
     "location": null,
     "summary": "A report on a workshop about reporting Christian missions and the culture of knowledge."
   },
@@ -1110,7 +1544,11 @@
     "date": "2008",
     "year": 2008,
     "type": "Conference Report",
-    "category": "Conference Report, Mission History, Communication, Publishing",
+    "category": [
+      "Methodology",
+      "Mission History",
+      "Media Studies"
+    ],
     "location": null,
     "summary": "A conference report on communication and publishing in Christian missions."
   },
@@ -1119,7 +1557,11 @@
     "date": "2007",
     "year": 2007,
     "type": "Professional Publication",
-    "category": "Science Education, Community Engagement, Communication",
+    "category": [
+      "Education",
+      "History",
+      "Media Studies"
+    ],
     "location": null,
     "summary": "An article on facilitating radical talks between school communities and scientists."
   },
@@ -1128,7 +1570,11 @@
     "date": "2007",
     "year": 2007,
     "type": "Professional Publication",
-    "category": "Chemistry, Science Education, Spectroscopy",
+    "category": [
+      "Biology",
+      "Education",
+      "History"
+    ],
     "location": null,
     "summary": "An educational article on NMR spectroscopy for science teachers."
   },
@@ -1137,7 +1583,11 @@
     "date": "2007",
     "year": 2007,
     "type": "Professional Publication",
-    "category": "Chemistry, Science Education, Synthesis",
+    "category": [
+      "Biology",
+      "Education",
+      "Methodology"
+    ],
     "location": null,
     "summary": "An educational article on total synthesis for science teachers."
   },
@@ -1146,7 +1596,10 @@
     "date": "2007",
     "year": 2007,
     "type": "Professional Publication",
-    "category": "Chemistry, Research Centers, Biotechnology",
+    "category": [
+      "Biology",
+      "Methodology"
+    ],
     "location": null,
     "summary": "An article on the ARC Centre for Excellence in Free Radical Chemistry and Biotechnology."
   },
@@ -1155,7 +1608,11 @@
     "date": "2007",
     "year": 2007,
     "type": "Professional Publication",
-    "category": "Chemistry, Community Engagement, Science Communication",
+    "category": [
+      "Biology",
+      "History",
+      "Science"
+    ],
     "location": null,
     "summary": "An article on chemists engaging with the community."
   },
@@ -1164,7 +1621,11 @@
     "date": "2007",
     "year": 2007,
     "type": "Professional Publication",
-    "category": "Chemistry, History of Science, Education",
+    "category": [
+      "Biology",
+      "History",
+      "Education"
+    ],
     "location": null,
     "summary": "An article on developments in radical chemistry."
   },
@@ -1173,7 +1634,10 @@
     "date": "2006",
     "year": 2006,
     "type": "Professional Publication",
-    "category": "Chemistry, Research Centers",
+    "category": [
+      "Biology",
+      "Methodology"
+    ],
     "location": "Australia",
     "summary": "A welcoming article about the ARC Centre for Excellence in Free Radical Chemistry and Biotechnology."
   },
@@ -1182,7 +1646,11 @@
     "date": "2006",
     "year": 2006,
     "type": "Professional Publication",
-    "category": "Chemistry, Research, Discovery",
+    "category": [
+      "Biology",
+      "Methodology",
+      "History"
+    ],
     "location": null,
     "summary": "An article on making radical differences in chemical research."
   },
@@ -1191,7 +1659,9 @@
     "date": "2007",
     "year": 2007,
     "type": "Research Report",
-    "category": "Mathematics Education, Teacher Training, Education Policy",
+    "category": [
+      "Education"
+    ],
     "location": "Australia",
     "summary": "A report on the preparation of mathematics teachers in Australia, examining demand for qualified teachers."
   },
@@ -1200,7 +1670,11 @@
     "date": "2005",
     "year": 2005,
     "type": "Research Report",
-    "category": "Chemistry, Labor Market, Education",
+    "category": [
+      "Biology",
+      "Economics",
+      "Education"
+    ],
     "location": "Australia",
     "summary": "A report on the future of chemistry in Australia, examining supply and demand of chemists."
   },
@@ -1209,7 +1683,9 @@
     "date": "2005",
     "year": 2005,
     "type": "Research Report",
-    "category": "Science Education, Teacher Training, Education Policy",
+    "category": [
+      "Education"
+    ],
     "location": "Australia",
     "summary": "A report examining who is teaching science in Australian secondary schools."
   },
@@ -1218,7 +1694,9 @@
     "date": "2004",
     "year": 2004,
     "type": "Research Report",
-    "category": "Higher Education, Study Abroad",
+    "category": [
+      "Education"
+    ],
     "location": null,
     "summary": "A report on study abroad and exchange systems in industrial countries."
   },
@@ -1227,7 +1705,10 @@
     "date": "2024",
     "year": 2024,
     "type": "Online Article",
-    "category": "Bible Translation, Colonial Exhibitions",
+    "category": [
+      "Bible Translation",
+      "Exhibition"
+    ],
     "location": "Germany, Papua New Guinea",
     "summary": "An online article examining Peni Lelei and Bible translations at the German colonial exhibition of 1896."
   },
@@ -1236,7 +1717,11 @@
     "date": "2024",
     "year": 2024,
     "type": "Online Article",
-    "category": "Bible Societies, Nineteenth Century, Religious History",
+    "category": [
+      "Bible Translation",
+      "History",
+      "Religion"
+    ],
     "location": "Germany",
     "summary": "An online article on the establishment of German Bible Societies in the nineteenth century."
   },
@@ -1245,7 +1730,10 @@
     "date": "2024",
     "year": 2024,
     "type": "Online Article",
-    "category": "Bible Translation, Colonialism, Post-colonialism",
+    "category": [
+      "Bible Translation",
+      "Colonialism"
+    ],
     "location": "Ghana",
     "summary": "An online article on mother-tongue Bibles in colonial and post-colonial Ghana."
   },
@@ -1254,7 +1742,11 @@
     "date": "2024",
     "year": 2024,
     "type": "Online Article",
-    "category": "Bible Translation, Workshop, Collaboration",
+    "category": [
+      "Bible Translation",
+      "Methodology",
+      "History"
+    ],
     "location": "Ghana",
     "summary": "An announcement of a collaborative workshop on mother-tongue Bibles in Ghana."
   },
@@ -1263,7 +1755,11 @@
     "date": "2019",
     "year": 2019,
     "type": "Popular Article",
-    "category": "Colonialism, Denmark, Politics",
+    "category": [
+      "Colonialism",
+      "Denmark",
+      "History"
+    ],
     "location": "Greenland",
     "summary": "A popular article providing historical context on Greenland and colonialism for contemporary political discussions."
   },
@@ -1272,7 +1768,11 @@
     "date": null,
     "year": null,
     "type": "Online Article",
-    "category": "Biography, Mission History, Indigenous Peoples",
+    "category": [
+      "Biography",
+      "Mission History",
+      "Indigenous Studies"
+    ],
     "location": "Australia",
     "summary": "A biographical entry on Friedrich August Hagenauer, a German missionary in Australia."
   },
@@ -1281,7 +1781,10 @@
     "date": "2012",
     "year": 2012,
     "type": "Online Article",
-    "category": "Food History, Cultural History",
+    "category": [
+      "History",
+      "Cultural History"
+    ],
     "location": "Australia",
     "summary": "An exploration of beef jerky in Australian cultural history."
   },
@@ -1290,7 +1793,11 @@
     "date": "2006",
     "year": 2006,
     "type": "Magazine Article",
-    "category": "Chemistry, Environment, Education",
+    "category": [
+      "Biology",
+      "Environmental History",
+      "Education"
+    ],
     "location": null,
     "summary": "An article on radical smog for a science education publication."
   },
@@ -1299,7 +1806,10 @@
     "date": "2007",
     "year": 2007,
     "type": "Magazine Article",
-    "category": "Chemistry, Biology, Education",
+    "category": [
+      "Biology",
+      "Education"
+    ],
     "location": null,
     "summary": "An article on light and cells for science education."
   },
@@ -1308,7 +1818,11 @@
     "date": "2007",
     "year": 2007,
     "type": "Magazine Article",
-    "category": "Biology, Education, Children",
+    "category": [
+      "Biology",
+      "Education",
+      "Childhood"
+    ],
     "location": null,
     "summary": "A science education article for children."
   },
@@ -1317,7 +1831,11 @@
     "date": "2007",
     "year": 2007,
     "type": "Magazine Article",
-    "category": "Nutrition, Education, Children",
+    "category": [
+      "History",
+      "Education",
+      "Childhood"
+    ],
     "location": null,
     "summary": "A science education article for children about healthy eating."
   },
@@ -1326,7 +1844,11 @@
     "date": "2007",
     "year": 2007,
     "type": "Magazine Article",
-    "category": "Biology, Health, Education",
+    "category": [
+      "Biology",
+      "Health History",
+      "Education"
+    ],
     "location": null,
     "summary": "A science education article on sleep and biology."
   },
@@ -1335,7 +1857,10 @@
     "date": "2006",
     "year": 2006,
     "type": "Magazine Article",
-    "category": "Chemistry, Career Guidance, Education",
+    "category": [
+      "Biology",
+      "Education"
+    ],
     "location": null,
     "summary": "A career guidance article for aspiring chemists."
   },
@@ -1344,7 +1869,11 @@
     "date": "2006",
     "year": 2006,
     "type": "Magazine Article",
-    "category": "Chemistry, Art, Education",
+    "category": [
+      "Biology",
+      "History",
+      "Education"
+    ],
     "location": null,
     "summary": "An article exploring the artistic aspects of chemistry."
   },
@@ -1353,7 +1882,11 @@
     "date": "2023",
     "year": 2023,
     "type": "Press Article",
-    "category": "Journalism, Moravian Church, History",
+    "category": [
+      "Media Studies",
+      "Religion",
+      "Methodology"
+    ],
     "location": "Australia",
     "summary": "A press article about sharing the diary of missionaries at Ebenezer."
   },
@@ -1362,7 +1895,11 @@
     "date": "2023",
     "year": 2023,
     "type": "Press Article",
-    "category": "Journalism, Moravian Church, History",
+    "category": [
+      "Media Studies",
+      "Religion",
+      "Methodology"
+    ],
     "location": "Australia",
     "summary": "A press article about a new book on the Ebenezer Mission."
   },
@@ -1371,7 +1908,11 @@
     "date": "2023",
     "year": 2023,
     "type": "Radio Interview",
-    "category": "Media, Moravian Church, History",
+    "category": [
+      "Media Studies",
+      "Religion",
+      "Methodology"
+    ],
     "location": "Australia",
     "summary": "A radio interview about Ebenezer Mission and republished journals."
   },
@@ -1380,7 +1921,11 @@
     "date": "2023",
     "year": 2023,
     "type": "Website Interview",
-    "category": "Media, Interview, Mission History, Education",
+    "category": [
+      "Media Studies",
+      "Mission History",
+      "Education"
+    ],
     "location": null,
     "summary": "Many missionary societies established mission schools in the nineteenth century in the British Empire as a means to convert non-Europeans to Christianity. Although the details differed in various colonial contexts, the driving ideology behind mission schools was that Christian morality was highest form of civilisation needed for non-Europeans to be useful members of colonies under British rule. This comprehensive survey of multi-colonial sites over the long time span clearly describes the missionary paradox that to draw in pupils they needed to provide secular education, but that secular education was seen to lead both to a moral crisis and to anti-British sentiments.",
     "doi": "9781526152961"
@@ -1390,7 +1935,11 @@
     "date": "2023",
     "year": 2023,
     "type": "Website Interview",
-    "category": "Media, Interview, Education, Childhood",
+    "category": [
+      "Media Studies",
+      "Education",
+      "Childhood"
+    ],
     "location": null,
     "summary": "An interview about the edited volume on global perspectives on boarding schools."
   }

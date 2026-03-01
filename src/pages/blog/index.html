@@ -17,7 +17,7 @@
         </div>
         <div class="large-6 medium-6 cell">
           {{#each publications}}
-          <div class="callout blog-post" data-year="{{year}}" data-category="{{category}}" data-type="{{type}}" data-location="{{#if location}}{{location}}{{else}}general{{/if}}">
+          <div class="callout blog-post" data-year="{{year}}" data-categories="{{#each category}}{{this}} {{/each}}" data-type="{{type}}" data-location="{{#if location}}{{location}}{{else}}general{{/if}}">
             <a href="#" style="color: inherit; text-decoration: none;">
               <h3>{{title}}</h3>
               <p><small>{{type}} &bull; {{year}}{{#if location}} &bull; {{location}}{{/if}}</small></p>
@@ -46,7 +46,7 @@
 
         const years = [...new Set([...posts].map(p => p.dataset.year))].sort().reverse();
         const types = [...new Set([...posts].map(p => p.dataset.type))].sort();
-        const categories = [...new Set([...posts].map(p => p.dataset.category))].sort();
+        const categories = [...new Set([...posts].flatMap(p => p.dataset.categories.trim().split(' ').filter(c => c)))].sort();
         const locations = [...new Set([...posts].map(p => p.dataset.location))].sort();
 
         const filterConfigs = {
@@ -108,9 +108,10 @@
 
         function filterPosts() {
           posts.forEach(post => {
+            const postCategories = post.dataset.categories.trim().split(' ').filter(c => c);
             const matchYear = selectedFilters.year.size === 0 || selectedFilters.year.has(post.dataset.year);
             const matchType = selectedFilters.type.size === 0 || selectedFilters.type.has(post.dataset.type);
-            const matchCategory = selectedFilters.category.size === 0 || selectedFilters.category.has(post.dataset.category);
+            const matchCategory = selectedFilters.category.size === 0 || [...selectedFilters.category].some(cat => postCategories.includes(cat));
             const matchLocation = selectedFilters.location.size === 0 || selectedFilters.location.has(post.dataset.location);
             post.style.display = (matchYear && matchType && matchCategory && matchLocation) ? 'block' : 'none';
           });
