@@ -15,7 +15,8 @@
     "type": "Monograph",
     "category": "Mission History, Education, Colonialism",
     "location": null,
-    "summary": "A comprehensive study examining the role of missionaries in education across the British Empire from 1830 to 1910, published by Manchester University Press."
+    "summary": "Many missionary societies established mission schools in the nineteenth century in the British Empire as a means to convert non-Europeans to Christianity. Although the details differed in various colonial contexts, the driving ideology behind mission schools was that Christian morality was highest form of civilisation needed for non-Europeans to be useful members of colonies under British rule. This comprehensive survey of multi-colonial sites over the long time span clearly describes the missionary paradox that to draw in pupils they needed to provide secular education, but that secular education was seen to lead both to a moral crisis and to anti-British sentiments.",
+    "doi": "9781526152961"
   },
   {
     "title": "Moravian Missionaries in the British Colony of Victoria, Australia, 1848-1908: Strangers in a Strange Land",
@@ -24,7 +25,8 @@
     "type": "Monograph",
     "category": "Moravian Church, Mission History, Colonialism",
     "location": "Australia",
-    "summary": "A detailed examination of Moravian missionaries in colonial Victoria, Australia, exploring their experiences and interactions with indigenous populations."
+    "summary": "Focusing on the six decades that German Moravian missionaries worked in the British colony of Victoria, Australia, this book enriches understanding of colonial politics and the role of the non-British other in manipulating practice and policy in foreign realms. Central to the transnational nature of the book are questions of identity and of how individuals, and the organisations they worked for, can be seen as both colluders and opposers within nation-state borders and politics. It analyses the ways in which the Moravian missionaries navigated competing agendas within the colonial setting.",
+    "doi": "10.1163/9789004179219"
   },
   {
     "title": "The Young Ecumenical Movement under Pressure: Christian Internationalism in War and Post-War Times, c. 1890-1930",
@@ -78,7 +80,8 @@
     "type": "Edited Journal Special Issue",
     "category": "Settler Colonial Studies, Childhood, Institutional History",
     "location": null,
-    "summary": "A special issue examining children and institutions in settler colonial contexts from a trans-imperial perspective."
+    "summary": "A trans-imperial analysis of children and institutions in settler colonial contexts. This article examines how children experienced institutional care in various settler colonial societies across the British Empire.",
+    "doi": null
   },
   {
     "title": "The Diary of Adolf and Polly Hartmann, 1863-1873",
@@ -132,7 +135,8 @@
     "type": "Edited Journal Special Issue",
     "category": "Mission History, Media Studies, Publishing History",
     "location": null,
-    "summary": "A forum section examining the form and function of missionary periodicals in the nineteenth century."
+    "summary": "At the 1860 conference on Protestant missions held in Liverpool, a session was dedicated to the use of the reported 200,000 monthly missionary periodicals produced by various societies for encouraging the home support of missionary work. The 125 delegates from more than twenty-five Protestant missionary societies both in Britain and abroad had divergent opinions on the prospective contents and audiences for missionary periodicals.",
+    "doi": "10.1017/S0009640713000036"
   },
   {
     "title": "German and British Bible Societies and the Publication of Bible Translations in Colonial West Africa",
@@ -141,7 +145,8 @@
     "type": "Journal Article",
     "category": "Bible Translation, Colonialism, Religious History",
     "location": "West Africa",
-    "summary": "An examination of German and British Bible Societies' work in publishing Bible translations in colonial West Africa."
+    "summary": "Recent studies in world Christianity have established that the missionary mother-tongue Bibles contributed essentially to the rise of indigenous forms of Christianity and its meteoric growth in Africa. However, these studies hardly give attention to the background processes that advanced missionary Bible translations. Using a case study approach and through a close reading of archival data on two missionary Bible translations in West Africa: the Ga Bible (1854-1866) of the Basel Mission and the Ewe Bible (1858-1913) of the North German Mission, this article reconstructs the multi-step background processes that produced these pioneering translations in the nineteenth to early twentieth centuries.",
+    "doi": null
   },
   {
     "title": "Translating Colonialism",
@@ -186,7 +191,8 @@
     "type": "Journal Article",
     "category": "Bible Translation, Imperial History",
     "location": "East Africa",
-    "summary": "An analysis of how Bible translations served as a tool of imperial reach in German East Africa during the nineteenth century."
+    "summary": "Informed by an attention to global and transnational entanglements, this article examines the context and process of bible translations from German East Africa at the tail end of German colonial rule in the early twentieth century. Translation is always a process of negotiation and compromise, and through examining the processes behind the translation and publication of the Bible into Kinyiha and Kinyamwezi a number of imperial as well as religious tensions become evident. The publication of the Kinyamwezi translation was undertaken quickly in order fend off Catholic and Islam threats to the Protestant efforts of conversion.",
+    "doi": "10.1080/03086534.2025.2508271"
   },
   {
     "title": "German Missions in German Colonialism. A historical contextualization of Afterlives",
@@ -204,7 +210,8 @@
     "type": "Journal Article",
     "category": "Mission History, Internment",
     "location": "East Africa",
-    "summary": "An examination of British and German missionary personnel in East African internment camps during World War I."
+    "summary": "During the First World War, German and British citizens in British and German colonies in East Africa were placed in internment camps. Men, women and children were separated and transferred over imperial boundaries to keep enemy citizens apart from their erstwhile colonial lives. Amongst the interned were many Protestant missionaries and their families, who had not expected to be affected by the European war and believed themselves above worldly politics. This article examines reports from British and German missionaries, focusing on the narratives of three men interned and deported from East Africa: a German in British East Africa; a British man in German East Africa; and a German in German East Africa.",
+    "doi": "10.1093/gerhis/ghaf017"
   },
   {
     "title": "Papuan Children, Catholic Missionaries, and the Formation of Transimperial Networks in Late Nineteenth-Century Europe",
@@ -222,7 +229,8 @@
     "type": "Journal Article",
     "category": "Film Studies, Colonialism, Religious Memory",
     "location": "Germany",
-    "summary": "An examination of films depicting faith and colonial fantasy, exploring postcolonial religious memories in interwar Germany."
+    "summary": "An examination of films depicting faith and colonial fantasy, exploring postcolonial religious memories in interwar Germany. This article analyzes how religious films from the interwar period reflected and shaped colonial imaginations in Germany.",
+    "doi": "10.24894/2673-3641.00133"
   },
   {
     "title": "The Moravian Church in the Aftermath of WWI: Global Connections and internal disjunctions",
@@ -231,7 +239,8 @@
     "type": "Journal Article",
     "category": "Moravian Church, Religious History",
     "location": null,
-    "summary": "An examination of the Moravian Church's global connections and internal challenges following World War I."
+    "summary": "At the end of July 1919, members of the American, Continental, and British Provinces of the Moravian Church came together for the first time in five years to discuss the state of the church's missions after the end of World War I. The preceding years had resulted in problems in terms of finances, administration, and labor as well as put into question the future of many mission fields. Nationalistic tensions ran high between members of the church, and there was a real concern that the worldwide Moravian Unity would be dissolved. That it did not was in part due to the sustained efforts of many members of the administrative bodies of the church.",
+    "doi": "10.5325/jmorahist.24.1.0027"
   },
   {
     "title": "Equipping a Child for Life's Battles: Sources and Methods in the History of Boarding Schools",
@@ -240,7 +249,8 @@
     "type": "Journal Article",
     "category": "Education History, Boarding Schools, Childhood, Methodology",
     "location": null,
-    "summary": "An examination of sources and methods for researching the history of boarding schools."
+    "summary": "An examination of sources and methods for researching the history of boarding schools. This article provides guidance on the archival sources available for studying boarding school history and the methodological approaches researchers can employ.",
+    "doi": "10.1080/0046760X.2023.2223559"
   },
   {
     "title": "Children and institutions in settler colonial contexts: a trans-imperial perspective",
@@ -249,7 +259,8 @@
     "type": "Journal Article",
     "category": "Settler Colonial Studies, Childhood, Institutional History",
     "location": null,
-    "summary": "A trans-imperial analysis of children and institutions in settler colonial contexts."
+    "summary": "A trans-imperial analysis of children and institutions in settler colonial contexts. This article examines how children experienced institutional care in various settler colonial societies across the British Empire.",
+    "doi": null
   },
   {
     "title": "Die Basler Mission und der Erste Weltkrieg: Die Verwendung der Berichte der aus Kamerun deportierten Missionspersonal f\u00fcr die deutsche Kriegspropaganda",
@@ -303,7 +314,8 @@
     "type": "Journal Article",
     "category": "Gender Studies, Medical History, Emotions, Colonialism",
     "location": null,
-    "summary": "An exploration of miscarriage and coping mechanisms in the nineteenth century through private notes from colonial settings."
+    "summary": "Silence around miscarriage remains within Western countries despite contemporaneous prevalence of miscarriages. This article examines the diaries of two religious women in colonial Australia and British India around the 1860s to question how mid-19th century women responded to their experiences of miscarriage before the beginning of the medicalisation of pregnancy in the 1880s. Their emotional responses reflected contemporaneous discursive practices, particularly those (quasi)medical ones warned women to maintain a neutral emotional state or risk a miscarriage.",
+    "doi": "10.1111/1468-0424.12478"
   },
   {
     "title": "Ein Globales Leben: Das Leben von Adolf und Mary Polly Hartmann in Briefen, ca. 1860-1910",
@@ -321,7 +333,8 @@
     "type": "Journal Article",
     "category": "Knowledge Production, Indigenous Studies",
     "location": "Australia",
-    "summary": "An examination of how German texts from the 1860s constructed knowledge about the Australian interior."
+    "summary": "This essay critically reviews the textual archive related to the two German mission stations in the South Australian Lake Eyre basin: the Lutheran Hermannsburg mission at Killalpaninna and the Moravian mission at Kopperamanna. The multiple entanglements of these stations far beyond their missionary activity become evident through examining distinctly religious material, such as mission journals, and secular texts, in German-language newspapers and scientific journals.",
+    "doi": "10.4324/9780367822248-8"
   },
   {
     "title": "The 1910 Edinburgh World Missionary Conference and Comparative Colonial Education",
@@ -330,7 +343,8 @@
     "type": "Journal Article",
     "category": "Mission History, Education, Colonialism",
     "location": null,
-    "summary": "An analysis of the 1910 Edinburgh World Missionary Conference and its relationship to comparative colonial education."
+    "summary": "In 1910 some 1200 delegates from Protestant missionary societies came together in Edinburgh, Scotland to attend a World Missionary Conference. This paper examines the discussion within the report regarding governmental attitudes to missionary education within colonial spaces. It provides a comparison between the aims of missionary education and the recorded experiences under various governments, particularly at times when they contrasted and conflicted.",
+    "doi": "10.1080/0046760X.2018.1425741"
   },
   {
     "title": "Anthropological investigation has very little interest for me: Notes from Moravian Missionaries in Australia",
@@ -339,7 +353,8 @@
     "type": "Journal Article",
     "category": "Moravian Church, Anthropology, Mission History",
     "location": "Australia",
-    "summary": "Notes from Moravian missionaries in Australia exploring their relationship with anthropological investigation."
+    "summary": "Notes from Moravian missionaries in Australia exploring their relationship with anthropological investigation. This article examines how missionaries engaged with (or resisted) anthropological discourse in the Australian colonial context.",
+    "doi": "10.1080/00664677.2017.1365689"
   },
   {
     "title": "Non-European Teachers in Mission Schools: Introduction",
@@ -348,7 +363,8 @@
     "type": "Journal Article",
     "category": "Mission Schools, Education, Colonialism, Indigenous Teachers",
     "location": null,
-    "summary": "An introduction to the topic of non-European teachers in mission schools across colonial contexts."
+    "summary": "This dossier focusses on non-European teachers within mission schools in the nineteenth and twentieth centuries, especially in the period of colonial control. These teachers were central to the missionary project and helped to disseminate both Christianity and Western knowledge across the globe. Local teachers, alongside other mission assistants and helpers, also helped translate, transmit, and transform both Western and local forms of knowledge and contributed to broader discourse about knowledge.",
+    "doi": "10.1017/S0165115316000620"
   },
   {
     "title": "Overcoming Objections to Print: The Moravian Periodical Accounts and the Pressure of Publishing in Eighteenth-Century Britain",
@@ -357,7 +373,8 @@
     "type": "Journal Article",
     "category": "Moravian Church, Publishing History, Print Culture, Eighteenth Century",
     "location": null,
-    "summary": "An examination of the Moravian periodical Accounts and the pressures of publishing in eighteenth-century Britain."
+    "summary": "An examination of the Moravian periodical Accounts and the pressures of publishing in eighteenth-century Britain. This article explores how the Moravian Church navigated print culture and publication in the early modern period.",
+    "doi": "10.5325/jmorahist.15.1.0001"
   },
   {
     "title": "Everywhere at Home, Everywhere a Stranger: The Communities of the Moravian Missionary Mary (Polly) Hartmann",
@@ -366,7 +383,8 @@
     "type": "Journal Article",
     "category": "Moravian Church, Mission History, Gender Studies, Biography",
     "location": null,
-    "summary": "An exploration of the communities and identity of Moravian missionary Mary (Polly) Hartmann."
+    "summary": "Women were an integral, yet often overlooked, aspect of Protestant mission work in the nineteenth century. Married female missionaries were seen as important workers especially as their common gender identification allowed them to more easily communicate with indigenous women than male missionaries were able to. The diaries and letters of one female missionary, Mary (Polly) Hartmann (1838-1916), who worked on the Ebenezer mission station in Colonial Victoria from 1863 to 1875, provides an unusual insight into the daily life of a European woman on the Aboriginal mission in the nineteenth century.",
+    "doi": "10.1080/14443058.2014.989882"
   },
   {
     "title": "The Cultural, Didactic, and Physical Spaces of Mission Schools in the Nineteenth Century",
@@ -375,7 +393,8 @@
     "type": "Journal Article",
     "category": "Mission Schools, Education, Space Studies, Cultural History",
     "location": null,
-    "summary": "An examination of the cultural, didactic, and physical spaces of mission schools in the nineteenth century."
+    "summary": "Nineteenth century Protestant Mission schools were dynamic spaces, constantly reacting and adapting to hierarchic and hegemonic demands, whether of political, religious or societal nature. They were also ideological spaces, which through their form and function, articulated notions of the 'proper' place of non-Europeans in colonial society. This article examines the interconnected cultural, didactic and physical 'spaces' of mission schools in which a variety of competing ideologies and expectations were negotiated.",
+    "doi": null
   },
   {
     "title": "The Form and Function of Nineteenth-Century Missionary Periodicals",
@@ -384,7 +403,8 @@
     "type": "Journal Article",
     "category": "Mission Periodicals, Publishing History, Media Studies",
     "location": null,
-    "summary": "An analysis of the form and function of nineteenth-century missionary periodicals."
+    "summary": "At the 1860 conference on Protestant missions held in Liverpool, a session was dedicated to the use of the reported 200,000 monthly missionary periodicals produced by various societies for encouraging the home support of missionary work. The 125 delegates from more than twenty-five Protestant missionary societies both in Britain and abroad had divergent opinions on the prospective contents and audiences for missionary periodicals.",
+    "doi": "10.1017/S0009640713000036"
   },
   {
     "title": "The Function of Inaugural Editorials in Missionary Periodicals",
@@ -393,7 +413,8 @@
     "type": "Journal Article",
     "category": "Mission Periodicals, Publishing History, Media Studies",
     "location": null,
-    "summary": "An examination of inaugural editorials in missionary periodicals and their function."
+    "summary": "During the nineteenth century, over 300 missionary periodicals were established in Britain, along with hundreds in North America, Europe, and the colonial world, yet little has been written about the rationale behind their establishment. From their beginnings as sources of intelligence, periodicals developed into vehicles of influence by the first decades of the nineteenth century, with missionary organizations also using this reduplicated commodity to deliberately persuade and mold public attitudes.",
+    "doi": "10.1017/S0009640713000048"
   },
   {
     "title": "Publication and Reception of David Cranz's 1767 History of Greenland",
@@ -402,7 +423,8 @@
     "type": "Journal Article",
     "category": "Moravian Church, Publishing History, Historiography",
     "location": "Greenland",
-    "summary": "An examination of the publication and reception of David Cranz's History of Greenland from 1767."
+    "summary": "An examination of the publication and reception of David Cranz's History of Greenland from 1767. This article traces how this important Moravian publication was received in Britain and its impact on understandings of Greenland and indigenous peoples.",
+    "doi": "10.1093/library/13.4.457"
   },
   {
     "title": "In Future, Only Female Teachers: Staffing the Ramahyuck mission school in the nineteenth century",
@@ -420,7 +442,8 @@
     "type": "Journal Article",
     "category": "Moravian Church, Mission Periodicals, Publishing History",
     "location": null,
-    "summary": "An exploration of the origins of missionary periodicals through three Moravian publications."
+    "summary": "The nineteenth century was a boom time for the genre of missionary periodicals. Missionary periodicals were established by religious organizations, societies, and churches for their members, for the general public, for theologians, for women, for children, and for converted non-Europeans, and their growth reflected the expansion of missionary societies into the non-European colonial world. This article examines the rationale behind the establishment of three Moravian Church missionary periodicals.",
+    "doi": "10.1111/j.1467-9809.2011.01168.x"
   },
   {
     "title": "Missionaries and Education in the 19th Century English-Speaking World, Part 1: Church-State Relations and Indigenous Actions and Reactions",
@@ -447,7 +470,8 @@
     "type": "Journal Article",
     "category": "Moravian Church, Collecting, Ethnography, Material Culture",
     "location": null,
-    "summary": "An examination of institutional motivations for nineteenth-century ethnographical collections formed by Moravian missionaries."
+    "summary": "As proto-ethnologists, missionaries represented an important source of ethnographical material, collecting for many museums and displays. It is contended here that European missions affected the collecting habits of their missionaries through actively encouraging or discouraging collecting on behalf of certain institutions. The motivation behind the endorsement of certain collecting habits and not others was linked to the missionary societies' perceptions of themselves.",
+    "doi": "10.1093/jhc/fhq043"
   },
   {
     "title": "Moravian Mission Education in the Nineteenth Century: Global Patterns and Local Manifestations at New Fairfield, Upper Canada",
@@ -465,7 +489,8 @@
     "type": "Journal Article",
     "category": "Mission Periodicals, Childhood, Orientalism, Media Studies",
     "location": null,
-    "summary": "An analysis of how non-Western others were constructed in a nineteenth-century children's missionary periodical."
+    "summary": "An analysis of how non-Western others were constructed in a nineteenth-century children's missionary periodical. This article focuses specifically upon The Little Missionary, published between 1870 and 1920 by the Moravian Church in Bethlehem, Pennsylvania.",
+    "doi": null
   },
   {
     "title": "Controlling marriages: Friedrich Hagenauer and the Betrothal of Indigenous Western Australian Women in Colonial Victoria",
@@ -474,7 +499,8 @@
     "type": "Journal Article",
     "category": "Colonialism, Gender Studies, Indigenous Studies",
     "location": "Australia",
-    "summary": "An examination of Friedrich Hagenauer's control over marriages of Indigenous Western Australian women in colonial Victoria."
+    "summary": "An examination of Friedrich Hagenauer's control over marriages of Indigenous Western Australian women in colonial Victoria. This article explores the intersection of mission policy, colonial law, and gender in the control of indigenous women's marriages.",
+    "doi": null
   },
   {
     "title": "Religious migration and political upheaval: German Moravians at Bethel in the Colony of South Australia, 1851-1907",
@@ -1356,7 +1382,8 @@
     "type": "Website Interview",
     "category": "Media, Interview, Mission History, Education",
     "location": null,
-    "summary": "An interview about the book Missionaries and Modernity."
+    "summary": "Many missionary societies established mission schools in the nineteenth century in the British Empire as a means to convert non-Europeans to Christianity. Although the details differed in various colonial contexts, the driving ideology behind mission schools was that Christian morality was highest form of civilisation needed for non-Europeans to be useful members of colonies under British rule. This comprehensive survey of multi-colonial sites over the long time span clearly describes the missionary paradox that to draw in pupils they needed to provide secular education, but that secular education was seen to lead both to a moral crisis and to anti-British sentiments.",
+    "doi": "9781526152961"
   },
   {
     "title": "Interview with Felicity Jensz about her co-edited volume, Global Perspectives on Boarding Schools",
