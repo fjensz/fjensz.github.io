@@ -69,7 +69,7 @@
     "year": 2024,
     "type": "Edited Book",
     "category": [
-      "Colonial History",
+      "Colonialism",
       "History"
     ],
     "location": null,
@@ -372,10 +372,9 @@
     "year": 2022,
     "type": "Journal Article",
     "category": [
-      "Basel Mission",
       "Propaganda"
     ],
-    "location": "Cameroon",
+    "location": "Cameroon, Switzerland",
     "summary": "An examination of the Basel Mission during World War I and how reports from deportees were used for German war propaganda."
   },
   {
@@ -411,8 +410,7 @@
     "type": "Journal Article",
     "category": [
       "Religion",
-      "Nationalism",
-      "Interwar Period"
+      "Nationalism"
     ],
     "location": null,
     "summary": "An examination of nationalism in German mission scholarship during the interwar period, focusing on Josef Schmidlin and Julius Richter."
@@ -549,7 +547,7 @@
     "type": "Journal Article",
     "category": [
       "Education",
-      "Astronomy",
+      "Science",
       "Cultural History"
     ],
     "location": null,
@@ -758,10 +756,9 @@
     "type": "Book Chapter",
     "category": [
       "Mission History",
-      "Basel Mission",
       "History"
     ],
-    "location": null,
+    "location": "Switzerland",
     "summary": "A chapter examining interconnected approaches to Protestant mission histories, focusing on the Basel Mission."
   },
   {
@@ -782,10 +779,9 @@
     "year": 2025,
     "type": "Book Chapter",
     "category": [
-      "Rheinische Missionsgesellschaft",
       "Loyalty"
     ],
-    "location": "Papua New Guinea",
+    "location": "Papua New Guinea, Germany",
     "summary": "An exploration of transloyalties among missionaries from the Rheinische Missionsgesellschaft in German New Guinea during WWI."
   },
   {
@@ -842,8 +838,7 @@
     "type": "Book Chapter",
     "category": [
       "Religion",
-      "Translation Studies",
-      "Reception Studies"
+      "Translation Studies"
     ],
     "location": "Greenland",
     "summary": "An examination of the reception of two English versions of Cranz's book in Britain in 1767 and 1820."
@@ -867,7 +862,7 @@
     "year": 2022,
     "type": "Book Chapter",
     "category": [
-      "Biology",
+      "Science",
       "Material Culture"
     ],
     "location": null,
@@ -906,7 +901,6 @@
     "type": "Book Chapter",
     "category": [
       "Religion",
-      "Reception Studies",
       "History"
     ],
     "location": "Greenland",
@@ -1106,8 +1100,7 @@
     "year": 2013,
     "type": "Book Chapter",
     "category": [
-      "Media Studies",
-      "Introduction"
+      "Media Studies"
     ],
     "location": null,
     "summary": "Introduction to the volume on media and mission, examining the politics of missionary periodicals."
@@ -1233,7 +1226,6 @@
     "type": "Handbook Article",
     "category": [
       "Religion",
-      "Spoils of War",
       "Colonialism"
     ],
     "location": null,
@@ -1309,7 +1301,6 @@
     "year": 2025,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Education",
       "Colonialism",
       "Indigenous Studies"
@@ -1324,7 +1315,6 @@
     "year": 2024,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Religion"
     ],
     "location": "Australia",
@@ -1336,7 +1326,6 @@
     "year": 2022,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Mission History",
       "Education"
     ],
@@ -1349,7 +1338,6 @@
     "year": 2022,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Religion"
     ],
     "location": "Australia",
@@ -1361,7 +1349,6 @@
     "year": 2023,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Education"
     ],
     "location": null,
@@ -1373,7 +1360,6 @@
     "year": 2021,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Mission History",
       "Religion"
     ],
@@ -1386,7 +1372,6 @@
     "year": 2021,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Education",
       "Childhood",
       "Colonialism"
@@ -1400,7 +1385,6 @@
     "year": 2021,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "History",
       "Colonialism"
     ],
@@ -1413,7 +1397,6 @@
     "year": 2021,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Religion",
       "Colonialism"
     ],
@@ -1426,7 +1409,6 @@
     "year": 2020,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Education",
       "Childhood",
       "Colonialism"
@@ -1440,7 +1422,6 @@
     "year": 2018,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Religion",
       "History"
     ],
@@ -1453,7 +1434,6 @@
     "year": 2015,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Mission History"
     ],
     "location": null,
@@ -1465,7 +1445,6 @@
     "year": 2014,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Imperialism"
     ],
     "location": "United States",
@@ -1477,7 +1456,6 @@
     "year": 2014,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Mission History",
       "Education"
     ],
@@ -1490,7 +1468,6 @@
     "year": 2011,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Imperialism"
     ],
     "location": null,
@@ -1516,7 +1493,6 @@
     "year": 2010,
     "type": "Book Review",
     "category": [
-      "Book Review",
       "Religion"
     ],
     "location": null,
@@ -1527,9 +1503,7 @@
     "date": "2010",
     "year": 2010,
     "type": "Book Review",
-    "category": [
-      "Book Review"
-    ],
+    "category": [],
     "location": "China, United States",
     "summary": "A review of a book on US-China interactions from 1880-1950."
   },
@@ -1578,7 +1552,7 @@
     "year": 2007,
     "type": "Professional Publication",
     "category": [
-      "Biology",
+      "Science",
       "Education",
       "History"
     ],
@@ -1591,7 +1565,7 @@
     "year": 2007,
     "type": "Professional Publication",
     "category": [
-      "Biology",
+      "Science",
       "Education",
       "Methodology"
     ],
@@ -1604,7 +1578,7 @@
     "year": 2007,
     "type": "Professional Publication",
     "category": [
-      "Biology",
+      "Science",
       "Methodology"
     ],
     "location": null,
@@ -1616,9 +1590,8 @@
     "year": 2007,
     "type": "Professional Publication",
     "category": [
-      "Biology",
-      "History",
-      "Science"
+      "Science",
+      "History"
     ],
     "location": null,
     "summary": "An article on chemists engaging with the community."
@@ -1629,7 +1602,7 @@
     "year": 2007,
     "type": "Professional Publication",
     "category": [
-      "Biology",
+      "Science",
       "History",
       "Education"
     ],
@@ -1642,7 +1615,7 @@
     "year": 2006,
     "type": "Professional Publication",
     "category": [
-      "Biology",
+      "Science",
       "Methodology"
     ],
     "location": "Australia",
@@ -1654,7 +1627,7 @@
     "year": 2006,
     "type": "Professional Publication",
     "category": [
-      "Biology",
+      "Science",
       "Methodology",
       "History"
     ],
@@ -1678,7 +1651,7 @@
     "year": 2005,
     "type": "Research Report",
     "category": [
-      "Biology",
+      "Science",
       "Economics",
       "Education"
     ],
@@ -1764,10 +1737,9 @@
     "type": "Popular Article",
     "category": [
       "Colonialism",
-      "Denmark",
       "History"
     ],
-    "location": "Greenland",
+    "location": "Greenland, Denmark",
     "summary": "A popular article providing historical context on Greenland and colonialism for contemporary political discussions."
   },
   {
@@ -1801,7 +1773,7 @@
     "year": 2006,
     "type": "Magazine Article",
     "category": [
-      "Biology",
+      "Science",
       "Environmental History",
       "Education"
     ],
@@ -1814,7 +1786,7 @@
     "year": 2007,
     "type": "Magazine Article",
     "category": [
-      "Biology",
+      "Science",
       "Education"
     ],
     "location": null,
@@ -1826,7 +1798,7 @@
     "year": 2007,
     "type": "Magazine Article",
     "category": [
-      "Biology",
+      "Science",
       "Education",
       "Childhood"
     ],
@@ -1852,7 +1824,7 @@
     "year": 2007,
     "type": "Magazine Article",
     "category": [
-      "Biology",
+      "Science",
       "Health History",
       "Education"
     ],
@@ -1865,7 +1837,7 @@
     "year": 2006,
     "type": "Magazine Article",
     "category": [
-      "Biology",
+      "Science",
       "Education"
     ],
     "location": null,
@@ -1877,7 +1849,7 @@
     "year": 2006,
     "type": "Magazine Article",
     "category": [
-      "Biology",
+      "Science",
       "History",
       "Education"
     ],
