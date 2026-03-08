@@ -1,4 +1,9 @@
     <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h1>PD Dr Felicity Jensz</h1>
+        </div>
+      </div>
       <div class="mobile-sidebar-bar hide-for-medium">
         <button class="mobile-sidebar-btn" data-panel=".sidebar-left" aria-expanded="false">☰ Navigation</button>
         <button class="mobile-sidebar-btn" data-panel=".sidebar-right" aria-expanded="false">Filters ⚙</button>
@@ -10,7 +15,7 @@
         <div class="cell small-12 medium-6 large-6 content-area">
           <h1>Publications <span id="publication-count">({{publications.length}})</span></h1>
           {{#each publications}}
-          <div class="callout blog-post" data-year="{{#if year}}{{year}}{{else}}coming soon{{/if}}" data-categories="{{#each category}}{{this}} {{/each}}" data-type="{{type}}" data-location="{{#if location}}{{location}}{{else}}general{{/if}}">
+          <div class="callout blog-post" data-year="{{#if year}}{{year}}{{else}}coming soon{{/if}}" data-categories="{{#each category}}{{this}}|{{/each}}" data-type="{{type}}" data-location="{{#if location}}{{location}}{{else}}general{{/if}}">
             {{> publication_item}}
             <p><small>{{type}} &bull; {{#if year}}{{year}}{{else}}coming soon{{/if}}{{#if location}} &bull; {{location}}{{/if}}</small></p>
             <p>{{summary}}</p>
@@ -57,7 +62,7 @@
           return parseInt(b) - parseInt(a);
         });
         const types = [...new Set([...posts].map(p => p.dataset.type))].sort();
-        const categories = [...new Set([...posts].flatMap(p => p.dataset.categories.trim().split(' ').filter(c => c)))].sort();
+        const categories = [...new Set([...posts].flatMap(p => p.dataset.categories.split('|').filter(c => c)))].sort();
         const locations = [...new Set([...posts].map(p => p.dataset.location))].sort();
 
         const filterConfigs = {
@@ -120,7 +125,7 @@
         function filterPosts() {
           let visibleCount = 0;
           posts.forEach(post => {
-            const postCategories = post.dataset.categories.trim().split(' ').filter(c => c);
+            const postCategories = post.dataset.categories.split('|').filter(c => c);
             const matchYear = selectedFilters.year.size === 0 || selectedFilters.year.has(post.dataset.year);
             const matchType = selectedFilters.type.size === 0 || selectedFilters.type.has(post.dataset.type);
             const matchCategory = selectedFilters.category.size === 0 || [...selectedFilters.category].some(cat => postCategories.includes(cat));
