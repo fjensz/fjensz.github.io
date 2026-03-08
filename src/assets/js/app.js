@@ -15,3 +15,14 @@ require('foundation-sites');
 
 
 $(document).foundation();
+
+document.querySelectorAll('.mobile-sidebar-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const panel = document.querySelector(btn.dataset.panel);
+    const isOpen = panel.classList.toggle('is-open');
+    btn.setAttribute('aria-expanded', isOpen);
+    document.querySelectorAll('.sidebar-left, .sidebar-right').forEach(p => {
+      if (p !== panel) p.classList.remove('is-open');
+    });
+  });
+});
