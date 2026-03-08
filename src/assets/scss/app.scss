@@ -63,3 +63,45 @@
 // Motion UI
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+// Site-wide custom properties and layout
+:root {
+  --border-radius: 6px;
+  --sidebar-bg: #f5f5f0;
+  --publication-bg: #ffffff;
+}
+
+.callout {
+  border-radius: var(--border-radius);
+}
+
+.sidebar-left,
+.sidebar-right {
+  position: sticky !important;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+
+  .callout {
+    background-color: var(--sidebar-bg);
+  }
+}
+
+.content-area {
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.blog-post a h3 {
+  color: #1779ba !important;
+}
+
+.blog-post a:hover h3 {
+  color: #0d5a8f !important;
+  text-decoration: underline !important;
+}
+
+.blog-post h3 {
+  color: #0a0a0a;
+  margin-bottom: 0.5rem;
+}
