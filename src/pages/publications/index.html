@@ -1,9 +1,13 @@
     <div class="grid-container">
+      <div class="mobile-sidebar-bar hide-for-medium">
+        <button class="mobile-sidebar-btn" data-panel=".sidebar-left" aria-expanded="false">☰ Navigation</button>
+        <button class="mobile-sidebar-btn" data-panel=".sidebar-right" aria-expanded="false">Filters ⚙</button>
+      </div>
       <div class="grid-x grid-padding-x">
-        <div class="cell large-3 medium-3 sidebar-left">
+        <div class="cell small-12 medium-3 large-3 sidebar-left">
           {{> publications_nav}}
         </div>
-        <div class="cell large-6 medium-6 content-area">
+        <div class="cell small-12 medium-6 large-6 content-area">
           <h1>Publications <span id="publication-count">({{publications.length}})</span></h1>
           {{#each publications}}
           <div class="callout blog-post" data-year="{{#if year}}{{year}}{{else}}coming soon{{/if}}" data-categories="{{#each category}}{{this}} {{/each}}" data-type="{{type}}" data-location="{{#if location}}{{location}}{{else}}general{{/if}}">
@@ -13,7 +17,7 @@
           </div>
           {{/each}}
         </div>
-        <div class="cell large-3 medium-3 sidebar-right">
+        <div class="cell small-12 medium-3 large-3 sidebar-right">
           <div class="callout clear-filters" style="display: none;">
             <a href="#" id="clear-all-filters">Clear selections</a>
           </div>
@@ -164,6 +168,18 @@
           Object.values(selectedFilters).forEach(s => s.clear());
           updateSelectedDisplay();
           filterPosts();
+        });
+
+        document.querySelectorAll('.mobile-sidebar-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const panel = document.querySelector(btn.dataset.panel);
+            const isOpen = panel.classList.toggle('is-open');
+            btn.setAttribute('aria-expanded', isOpen);
+            // Close the other panel
+            document.querySelectorAll('.sidebar-left, .sidebar-right').forEach(p => {
+              if (p !== panel) p.classList.remove('is-open');
+            });
+          });
         });
       })();
     </script>

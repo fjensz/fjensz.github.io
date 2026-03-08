@@ -1,3 +1,52 @@
 .blog-post {
   background-color: var(--publication-bg);
 }
+
+@media screen and (max-width: 39.9375em) {
+  .mobile-sidebar-bar {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--sidebar-bg);
+    padding: 0.4rem 0.75rem;
+    border-bottom: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    margin-bottom: 0.5rem;
+  }
+  .mobile-sidebar-btn {
+    background: none;
+    border: 1px solid #aaa;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.9rem;
+  }
+  .sidebar-left,
+  .sidebar-right {
+    display: none;
+    position: fixed !important;
+    top: 2.75rem;
+    width: 75%;
+    max-width: 18rem;
+    height: calc(100vh - 2.75rem);
+    z-index: 150;
+    overflow-y: auto;
+    background: var(--sidebar-bg);
+    padding: 1rem;
+    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.15);
+  }
+  .sidebar-left {
+    left: 0;
+  }
+  .sidebar-right {
+    right: 0;
+    box-shadow: -2px 0 12px rgba(0, 0, 0, 0.15);
+  }
+  .sidebar-left.is-open,
+  .sidebar-right.is-open {
+    display: block;
+  }
+}
