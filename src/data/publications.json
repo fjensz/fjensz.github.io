@@ -26,7 +26,7 @@
     "url": "https://manchesteruniversitypress.co.uk/9781526174437/"
   },
   {
-    "title": "Moravian Missionaries in the British Colony of Victoria, Australia, 1848-1908: Strangers in a Strange Land",
+    "title": "German Moravian Missionaries in the British Colony of Victoria, Australia, 1848-1908: Strangers in a Strange Land",
     "date": "2010",
     "year": 2010,
     "type": "Monograph",
@@ -37,7 +37,7 @@
     ],
     "location": "Australia",
     "summary": "Focusing on the six decades that German Moravian missionaries worked in the British colony of Victoria, Australia, this book enriches understanding of colonial politics and the role of the non-British other in manipulating practice and policy in foreign realms. Central to the transnational nature of the book are questions of identity and of how individuals, and the organisations they worked for, can be seen as both colluders and opposers within nation-state borders and politics. It analyses the ways in which the Moravian missionaries navigated competing agendas within the colonial setting.",
-    "doi": "10.1163/9789004179219"
+    "url": "https://brill.com/display/title/15399"
   },
   {
     "title": "The Young Ecumenical Movement under Pressure: Christian Internationalism in War and Post-War Times, c. 1890-1930",
@@ -48,7 +48,8 @@
       "Religion"
     ],
     "location": null,
-    "summary": "An edited volume examining the ecumenical movement during the turbulent period of war and post-war times from 1890-1930."
+    "summary": "An edited volume examining the ecumenical movement during the turbulent period of war and post-war times from 1890-1930.",
+    "url": "https://press.uchicago.edu/ucp/books/book/distributed/Y/bo278100553.html"
   },
   {
     "title": "Translating Colonialism",
@@ -73,7 +74,8 @@
       "History"
     ],
     "location": null,
-    "summary": "An exploration of colonial traces in Münster and the Münsterland region, examining colonial legacies in Westphalia."
+    "summary": "An exploration of colonial traces in Münster and the Münsterland region, examining colonial legacies in Westphalia.",
+    "url": "https://www.transcript-verlag.de/978-3-8376-7483-5/koloniale-spuren-in-muenster-und-im-muensterland/"
   },
   {
     "title": "Sources and Methods in the History of Boarding Schools",
@@ -86,7 +88,8 @@
       "Methodology"
     ],
     "location": null,
-    "summary": "A specially edited section on sources and methods for researching boarding school history."
+    "summary": "A specially edited section on sources and methods for researching boarding school history.",
+    "doi": "10.1080/0046760X.2023.2223559"
   },
   {
     "title": "Vermächtnisse von David Cranz' 'Historie von Grönland' (1765)",
@@ -99,10 +102,11 @@
       "Translation Studies"
     ],
     "location": "Greenland",
-    "summary": "A German translation and examination of David Cranz's 1765 History of Greenland, part of an innovative AI translation project."
+    "summary": "A German translation and examination of David Cranz's 1765 History of Greenland, part of an innovative AI translation project.",
+    "url": "https://link.springer.com/book/10.1007/978-3-031-43822-6"
   },
   {
-    "title": "Children and institutions in settler colonial contexts",
+    "title": "Children and institutions in settler colonial contexts: a trans-imperial perspective",
     "date": "2023",
     "year": 2023,
     "type": "Edited Journal Special Issue",
@@ -113,7 +117,7 @@
     ],
     "location": null,
     "summary": "A trans-imperial analysis of children and institutions in settler colonial contexts. This article examines how children experienced institutional care in various settler colonial societies across the British Empire.",
-    "doi": null
+    "doi": "10.1080/2201473X.2023.2284495"
   },
   {
     "title": "The Diary of Adolf and Polly Hartmann, 1863-1873",
@@ -351,20 +355,6 @@
     "location": null,
     "summary": "An examination of sources and methods for researching the history of boarding schools. This article provides guidance on the archival sources available for studying boarding school history and the methodological approaches researchers can employ.",
     "doi": "10.1080/0046760X.2023.2223559"
-  },
-  {
-    "title": "Children and institutions in settler colonial contexts: a trans-imperial perspective",
-    "date": "2023",
-    "year": 2023,
-    "type": "Journal Article",
-    "category": [
-      "Colonialism",
-      "Childhood",
-      "Institutional History"
-    ],
-    "location": null,
-    "summary": "A trans-imperial analysis of children and institutions in settler colonial contexts. This article examines how children experienced institutional care in various settler colonial societies across the British Empire.",
-    "doi": null
   },
   {
     "title": "Die Basler Mission und der Erste Weltkrieg: Die Verwendung der Berichte der aus Kamerun deportierten Missionspersonal für die deutsche Kriegspropaganda",
