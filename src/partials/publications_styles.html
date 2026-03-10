@@ -1,3 +1,25 @@
 .blog-post {
   background-color: var(--publication-bg);
 }
+
+.blog-post.has-content {
+  cursor: pointer;
+}
+
+.blog-post.has-content::after {
+  content: '▸ more';
+  display: block;
+  font-size: 0.8em;
+  opacity: 0.5;
+  margin-top: -0.5em;
+}
+
+.blog-post.has-content.expanded::after {
+  content: '▾ less';
+}
+
+.publication-content {
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+}
