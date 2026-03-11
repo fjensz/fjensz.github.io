@@ -39,7 +39,7 @@ console.log(UNCSS_OPTIONS);
 // Build the "dist" folder by running all of the below tasks
 // Sass must be run later so UnCSS can search for used classes in the others assets.
 gulp.task('build',
-  gulp.series(clean, gulp.parallel(pages, () => blogPosts(PATHS), javascript, images, copy), sassBuild, styleGuide)
+  gulp.series(clean, gulp.parallel(pages, () => blogPosts(PATHS), javascript, images, copy, copyRoot), sassBuild, styleGuide)
 );
 
 // Build the site, run the server, and watch for file changes
@@ -58,6 +58,12 @@ function clean(done) {
 function copy() {
   return gulp.src(PATHS.assets)
     .pipe(gulp.dest(PATHS.dist + '/assets'));
+}
+
+// Copy root-level files (e.g. _headers) directly to dist
+function copyRoot() {
+  return gulp.src('src/_headers')
+    .pipe(gulp.dest(PATHS.dist));
 }
 
 // Copy page templates into finished HTML files
