@@ -27,11 +27,11 @@ rm -r dist
 sed -i '1d' index.html
 
 echo -e "\033[0;32mUpdating git...\033[0m"
-git add index.html _headers styleguide.html publications/* assets/*
+git add index.html _headers styleguide.html publications/ assets/
 git add -u
 git st
 git commit -am "New Site Build (`date`)"
-git push origin main
+git push origin gh-pages
 
 echo -e "\033[0;32mChange back to source branch...\033[0m"
 git checkout source
