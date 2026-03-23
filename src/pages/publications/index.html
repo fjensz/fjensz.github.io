@@ -20,7 +20,7 @@
             {{> publication_item}}
             <p><small>{{type}} &bull; {{#if year}}{{year}}{{else}}coming soon{{/if}}{{#if location}} &bull; {{location}}{{/if}}</small></p>
             <p>{{summary}}</p>
-            {{#if content}}<div class="publication-content" hidden><p>{{content}}</p></div>{{/if}}
+            {{#if content}}<div class="publication-content" hidden>{{{content}}}</div>{{/if}}
           </div>
           {{/each}}
         </div>
