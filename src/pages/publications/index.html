@@ -19,6 +19,15 @@
           <div class="callout blog-post{{#if content}} has-content{{/if}}" data-year="{{#if year}}{{year}}{{else}}coming soon{{/if}}" data-categories="{{#each category}}{{this}}|{{/each}}" data-type="{{type}}" data-location="{{#if location}}{{location}}{{else}}general{{/if}}">
             {{> publication_item}}
             <p><small>{{type}} &bull; {{#if year}}{{year}}{{else}}coming soon{{/if}}{{#if location}} &bull; {{location}}{{/if}}</small></p>
+            <p><strong>{{authors}}</strong></p>
+            {{#if publication}}
+            <p class="publication-details">
+              {{#if volume}}<em>{{publication}}</em> <strong>{{volume}}</strong>{{#if pages}}: {{pages}}{{/if}}
+              {{else if pages}}In: <em>{{publication}}</em>{{#if pages}}, pp. {{pages}}{{/if}}
+              {{else}}{{publication}}{{#if location}}, {{location}}{{/if}}
+              {{/if}}
+            </p>
+            {{/if}}
             <p>{{summary}}</p>
             {{#if content}}<div class="publication-content" hidden>{{{content}}}</div>{{/if}}
           </div>
